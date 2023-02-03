@@ -1,9 +1,8 @@
+import dialogs from "dialog";export default function Container(props) {
 
-export default function Container(props) {
-  const {children} = props
   return (
-    <div className="h-full w-full bg-red-300">
-{children}
+    <div className="flex h-screen justify-center items-center bg-blue-300" >
+      <p className='text-primary'>BONJOUR. JE SUIS D-tEYE: L LE VIRUS INFORMATIQUE</p>
     </div>
   )
 }

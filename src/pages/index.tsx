@@ -18,28 +18,9 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main>
-        <div>
-          <h1 className='text-primary font-bold'>COUCOUUUU</h1>
-        </div>
-        <Container>
-          <Grid slide="1">
-              <Item name="header">
-                  <Header/>
-              </Item>
-              <Item name="illustration">
-                  <Illustration width={90} src="/illustrations/painting.png" alt=""/>
-              </Item>
-              <Item name="dialog">
-                  <Dialog name="KURT :">Maman, comment devenir un grand artiste ?</Dialog>
-              </Item>
-              <Item name="button">
-                  <Button arrow="right" onClick={handleNext}>
-                      Continuer
-                  </Button>
-              </Item>
-          </Grid>
-        </Container>
+      <main >
+        <Container/>
+        {/* <Bouton></Bouton> */}
         <Link href="/paints" className='text-white'>
           Peinturesz
         </Link>
