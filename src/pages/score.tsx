@@ -19,10 +19,10 @@ export default function Home() {
       </Head>
       <main>
         <div>
-          <h1 className='text-primary font-bold'>COUCOUUUU</h1>
+          <h1 className='text-primary font-bold'>Score, c'est fini</h1>
         </div>
-        <Link href="/paints" className='text-white'>
-          Peintures
+        <Link href="/credits" className='text-white'>
+          Afficher les crédits
         </Link>
       </main>
     </>

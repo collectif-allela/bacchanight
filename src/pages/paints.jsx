@@ -1,8 +1,8 @@
 
 // This page is the home page
 import Head from 'next/head'
-import Image from 'next/image'
 import Link from 'next/link'
+import Image from 'next/image'
 import { Inter } from '@next/font/google'
 import styles from '@/styles/Home.module.css'
 
@@ -19,10 +19,10 @@ export default function Home() {
       </Head>
       <main>
         <div>
-          <h1 className='text-primary font-bold'>COUCOUUUU</h1>
+          <h1 className='text-primary font-bold'>Paints</h1>
         </div>
-        <Link href="/paints" className='text-white'>
-          Peintures
+        <Link href="/game1" className='text-white'>
+          Jeu 1
         </Link>
       </main>
     </>

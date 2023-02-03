@@ -19,10 +19,10 @@ export default function Home() {
       </Head>
       <main>
         <div>
-          <h1 className='text-primary font-bold'>COUCOUUUU</h1>
+          <h1 className='text-primary font-bold'>Jeu 2</h1>
         </div>
-        <Link href="/paints" className='text-white'>
-          Peintures
+        <Link href="/conclusion" className='text-white'>
+          Aller à la conclusion
         </Link>
       </main>
     </>

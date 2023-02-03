@@ -10,7 +10,11 @@ module.exports = {
   ],
   
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        'primary': '#CEFF44',
+      },
+    },
   },
   plugins: [],
 }
