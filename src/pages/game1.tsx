@@ -21,13 +21,19 @@ export default function Game1() {
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main id="container"className='h-fill w-fill'>
-      <canvas id="canvas" width="800" height="600" style="background: url('./images/image.jpg')">
-  Your browser does not support the canvas element.
-</canvas>
+      {/* <Image
+            src="/../public/jour_des_mort.png"
+            alt="Picture of a file"
+            width={1000}
+            height={1000}
+            className="m-auto"
+          /> */}
+    <div>
+      <div className='w-screen h-screen bg-red-300 overflow-hidden'>
+        <img className='w-[1200px] h-[1200px] max-w-none max-h-none' src="/test.jpg" alt="image" />
+      </div>
+    </div>
 
-
-      </main>
     </>
   )
 }

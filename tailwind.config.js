@@ -18,6 +18,10 @@ module.exports = {
       fontFamily: {
         'title': ['OffBit Trial'],
         'body': ['"Aeonik TRIAL"'],
+      },
+      backgroundImage: {
+        'game1': "url('/public/jour_des_mort.png')",
+        'footer-texture': "url('/img/footer-texture.png')",
       }
     },
   plugins: [],
