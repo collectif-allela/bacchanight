@@ -17,7 +17,7 @@ export default function Paints(){
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className='h-screen flex justify-center items-center'>
-        <div className='text-center relative'>
+        <div className='text-center relative h-4/6'>
           <Title text="VOICI LES OEUVRES INFECTÉES"/>
 
           <Image
@@ -34,7 +34,7 @@ export default function Paints(){
             height={300}
             className="m-auto mt-10"
           />
-          <Link href="/game1"><Button text="ouvrir>"/></Link>
+          <Link className='text-primary 'href="/game1"><Button text="COMMENCER LE JEU ->"/></Link>
         </div>
 
       </main>

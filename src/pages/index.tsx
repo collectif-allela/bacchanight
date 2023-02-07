@@ -28,19 +28,19 @@ export default function Home(){
         case 1:
             return (
                 <Container title="Desinformation" text= "Les organisateurs m’accusent de désinformation historique car je me suis permis, à dessein, de rajouter quelques éléments sur certains tableaux...">
-                <Button id={slide} text="continuer >" onClick={handleNext}  />
+                <Button id={slide} text="SUIVANT" onClick={handleNext}  />
                 </Container>
             )
         case 2:
               return (
                 <Container title="Le sense du detaille"  text= "Aurez vous l’oeil assez aiguisé pour identifier les différences que j’ai dissimulées dans les versions numériques des peintures">
-                  <Link href="/download"><Button text="ouvrir >"/></Link>
+                  <Link href="/download"><Button text="SUIVANT"/></Link>
                 </Container>
             )
         default:
           return (
             <Container title="Programme malveillant"  text= "Bonjour. Je suis D-tEye:  le virus informatique qui sévit pendant cette bacchanight...">
-              <Button id={slide} text="continuer >" onClick={handleNext}/>
+              <Button id={slide} text="SUIVANT" onClick={handleNext}/>
             </Container>
         )
     }
