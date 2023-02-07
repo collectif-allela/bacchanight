@@ -19,10 +19,8 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main >
-        <Container/>
-        {/* <Bouton></Bouton> */}
-        <h1 className='text-white text-3xl font-bold'>Test typing</h1>
-        <p id='demo'></p>
+        <Container title = "Test typing" text = "test du texte mgl">
+        </Container>
       </main>
     </>
   )
