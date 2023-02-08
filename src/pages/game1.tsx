@@ -14,8 +14,7 @@ export default function Game1() {
   const [score, setScore]= useState(0);
 
   function increaseScore(){
-
-  // // Add point to score
+  // Add point to score
     setScore(score + 1);
   };
   return (
@@ -26,9 +25,11 @@ export default function Game1() {
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-
-      <Paint onclick={increaseScore} class="max-w-none" src="/jour_des_morts.jpg"/>
+      <div className='relative'>
+      <Paint itemClick={increaseScore} class="max-w-none " src="/jour_des_morts.jpg"/>
       <Score score={score}/>
+      </div>
+
     </>
   )
 }

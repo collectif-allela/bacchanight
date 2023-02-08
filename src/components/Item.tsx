@@ -1,6 +1,7 @@
 
 import { useState } from "react"
-export default function Error(props:any) {
+
+export default function Item(props:any) {
 
   const [show, setShow]= useState(true);
 
