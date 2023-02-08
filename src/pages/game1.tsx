@@ -24,13 +24,7 @@ export default function Game1() {
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      {/* <Image
-            src="/../public/jour_des_mort.png"
-            alt="Picture of a file"
-            width={1000}
-            height={1000}
-            className="m-auto"
-          /> */}
+
       <Paint/>
 
     </>
