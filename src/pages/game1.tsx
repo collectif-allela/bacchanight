@@ -6,15 +6,16 @@ import Link from 'next/link'
 import { Inter } from '@next/font/google'
 import styles from '@/styles/Home.module.css'
 import Paint from '@/components/Paint'
-
+import { useState } from "react";
 
 
 export default function Game1() {
 
-  function moveX(){
+  const [score, setScore] = useState(0);
 
+  const addPoint = () => {
+    setScore(score + 1)
   }
-
 
   return (
     <>
@@ -26,7 +27,7 @@ export default function Game1() {
       </Head>
 
       <Paint class="max-w-none" src="/jour_des_morts.jpg"/>
-
+      
     </>
   )
 }
