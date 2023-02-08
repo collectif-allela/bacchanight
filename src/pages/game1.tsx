@@ -25,7 +25,7 @@ export default function Game1() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <Paint/>
+      <Paint class="max-w-none" src="/jour_des_morts.jpg"/>
 
     </>
   )
