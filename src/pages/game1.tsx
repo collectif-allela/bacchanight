@@ -24,25 +24,8 @@ export default function Game1() {
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-<<<<<<< HEAD
       <div className='relative'>
       <Paint itemClick={increaseScore} class="max-w-none " src="/jour_des_morts.jpg"/>
-=======
-      {/* <Image
-            src="/../public/jour_des_mort.png"
-            alt="Picture of a file"
-            width={1000}
-            height={1000}
-            className="m-auto"
-          /> */}
-    <div>
-      <div className='w-screen h-screen bg-red-300 overflow-hidden'>
-        <img className='w-[1200px] h-[1200px] max-w-none max-h-none' src="/test.jpg" alt="image" />
-      </div>
-    </div>
-
-      <Paint onclick={increaseScore} class="max-w-none" src="/jour_des_morts.jpg"/>
->>>>>>> eecde7c553d584822574b661a3abbb59caa81188
       <Score score={score}/>
       </div>
 
