@@ -5,11 +5,18 @@ import Image from 'next/image'
 import Link from 'next/link'
 import { Inter } from '@next/font/google'
 import styles from '@/styles/Home.module.css'
+import Paint from '@/components/Paint'
+import { useState } from "react"
+import Score from '@/components/Score'
 
 export default function Game1() {
+  const [score, setScore]= useState(0);
 
+  function increaseScore(){
 
-
+  // // Add point to score
+    setScore(score + 1);
+  };
   return (
     <>
       <Head>
@@ -31,6 +38,8 @@ export default function Game1() {
       </div>
     </div>
 
+      <Paint onclick={increaseScore} class="max-w-none" src="/jour_des_morts.jpg"/>
+      <Score score={score}/>
     </>
   )
 }
