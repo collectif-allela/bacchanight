@@ -7,7 +7,6 @@ export default function Item(props:any) {
 
   function handleClick(event: any){
     setShow(false);
-
     props.onclick(event);
   }
 
