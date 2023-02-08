@@ -5,17 +5,12 @@ import Image from 'next/image'
 import Link from 'next/link'
 import { Inter } from '@next/font/google'
 import styles from '@/styles/Home.module.css'
-import Paint from '@/components/Paint'
-import { useState } from "react";
+import Konva from 'konva'
 
 
 export default function Game1() {
 
-  const [score, setScore] = useState(0);
 
-  const addPoint = () => {
-    setScore(score + 1)
-  }
 
   return (
     <>
@@ -25,9 +20,19 @@ export default function Game1() {
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
+      {/* <Image
+            src="/../public/jour_des_mort.png"
+            alt="Picture of a file"
+            width={1000}
+            height={1000}
+            className="m-auto"
+          /> */}
+    <div>
+      <div className='w-screen h-screen bg-red-300 overflow-hidden'>
+        <img className='w-[1200px] h-[1200px] max-w-none max-h-none' src="/test.jpg" alt="image" />
+      </div>
+    </div>
 
-      <Paint class="max-w-none" src="/jour_des_morts.jpg"/>
-      
     </>
   )
 }
