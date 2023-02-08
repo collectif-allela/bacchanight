@@ -6,17 +6,18 @@ import Link from 'next/link'
 import { Inter } from '@next/font/google'
 import styles from '@/styles/Home.module.css'
 import Paint from '@/components/Paint'
-import { useState } from "react";
+import { useState } from "react"
+import Score from '@/components/Score'
 
 
 export default function Game1() {
+  const [score, setScore]= useState(0);
 
-  const [score, setScore] = useState(0);
+  function increaseScore(){
 
-  const addPoint = () => {
-    setScore(score + 1)
-  }
-
+  // // Add point to score
+    setScore(score + 1);
+  };
   return (
     <>
       <Head>
@@ -26,8 +27,8 @@ export default function Game1() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <Paint class="max-w-none" src="/jour_des_morts.jpg"/>
-      
+      <Paint onclick={increaseScore} class="max-w-none" src="/jour_des_morts.jpg"/>
+      <Score score={score}/>
     </>
   )
 }
