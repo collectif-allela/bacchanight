@@ -5,7 +5,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import { Inter } from '@next/font/google'
 import styles from '@/styles/Home.module.css'
-import Konva from 'konva'
+import Paint from '@/components/Paint'
 
 
 
@@ -31,11 +31,7 @@ export default function Game1() {
             height={1000}
             className="m-auto"
           /> */}
-    <div id="img-box" onClick={moveX()}>
-      <div className='w-screen h-screen bg-red-300 overflow-hidden'>
-        <img className='w-[1200px] h-[1200px] max-w-none max-h-none' src="/test.jpg" alt="image" />
-      </div>
-    </div>
+      <Paint/>
 
     </>
   )
