@@ -57,12 +57,19 @@ export default function Game1() {
         )
         case 3:
         return (
-          <div className='w-screen h-screen'>
-          <MessageBox>
+          <div className='w-screen h-screen px-4 pt-12'>
+          <Title text = "bravo"/>
+          <div className='h-5/6 flex flex-col justify-between mx-4'>
+            <div className='mt-12'>
+            <h3 className='text-primary uppercase'>IDENTIFICATION DES ERREURS : <span className='font-bold'>COMPLETE</span></h3>
+            <h3 className='text-primary uppercase'>objectif : <span className='font-bold'>atteint</span></h3>
+            </div>
+            <MessageBox>
           <Text text="En réalité, je vous ai proposé cette expérience pour répondre à une problématique grandissante : la consommation toujours plus rapides des œuvres d’art présentées dans les musées."/>
           </MessageBox>
-          <div className=''>
+          <div className='mx-auto'>
           <Link href="/game2"><Button text="SUIVANT"/></Link>
+          </div>
           </div>
           </div>
           )
