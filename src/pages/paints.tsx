@@ -20,20 +20,9 @@ export default function Paints(){
         <div className='text-center relative h-4/6'>
           <Title text="VOICI LES OEUVRES INFECTÉES"/>
 
-          <Image
-            src="/../public/jour_des_mort.png"
-            alt="Image jour de morts"
-            width={300}
-            height={300}
-            className="m-auto mt-10"
-          />
-          <Image
-            src="/../public/waterloo_jaune.png"
-            alt="Picture of a file"
-            width={300}
-            height={300}
-            className="m-auto mt-10"
-          />
+          <img className='w-[300px] h-auto' src="jour_des_mort.png" alt="" />
+          <img className='w-[300px] h-auto' src="waterloo_jaune.png" alt="" />
+          
           <Link className='text-primary 'href="/game1"><Button text="COMMENCER LE JEU ->"/></Link>
         </div>
 
