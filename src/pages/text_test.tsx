@@ -1,14 +1,11 @@
 
 // This page is the home page
 import Head from 'next/head'
-import Image from 'next/image'
-import Link from 'next/link'
-import { Inter } from '@next/font/google'
-import styles from '@/styles/Home.module.css'
 import Container from "@/components/Container"
-const inter = Inter({ subsets: ['latin'] })
+import TypeIt from "typeit-react";
 
 export default function Home() {
+
   return (
 
     <>
@@ -18,10 +15,15 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main >
-        <Container title = "Test typing" text = "test du texte mgl">
-        </Container>
-      </main>
+      <main className="h-full">
+      <TypeIt options={{
+          strings: ["Bonjour. Je suis D-tEye: le virus informatique qui sévit pendant cette bacchanight... I"],
+          speed: 10,
+          waitUntilVisible: true,
+        }}className ="text-primary">
+      </TypeIt>
+    </main>
+
     </>
   )
 }
