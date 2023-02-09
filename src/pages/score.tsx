@@ -19,7 +19,7 @@ export default function Home() {
       </Head>
       <main>
         <div>
-          <h1 className='text-primary font-bold'>Score, c'est fini</h1>
+          <h1 className='text-primary font-bold'>Score, cest fini</h1>
         </div>
         <Link href="/credits" className='text-white'>
           Afficher les crédits
