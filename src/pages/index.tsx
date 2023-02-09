@@ -2,8 +2,6 @@
 // This page is the home page
 import Head from 'next/head'
 import Image from 'next/image'
-import { Inter } from '@next/font/google'
-import styles from '@/styles/Home.module.css'
 import Container from "@/components/Container"
 import { useState } from "react";
 import Button from "../components/Button"
