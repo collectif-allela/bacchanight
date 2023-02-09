@@ -13,6 +13,7 @@ import Button from "../components/Button"
 export default function Game1() {
   const [score, setScore]= useState(0);
   const [scene, setScene]= useState(0);
+
   const scoreToWin = 2;
 
   function increaseScore(){
