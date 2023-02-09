@@ -93,7 +93,7 @@ export default function Home(){
             <Container>
             <div className='h-screen flex flex-col justify-center py-12'>
             <MessageBox>
-            <div className='w-full text-center items-center flex-col flex gap-y-10'>
+            <div className='w-full text-center items-center flex-col flex my-8 gap-y-10'>
             <img src="empty_folder.svg"></img>
             <Title text = "INSTALLATION du programme MALVEILLANT"/>
             <Button id={slide} text="commencer" onClick={handleNext}  />
