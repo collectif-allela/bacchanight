@@ -11,6 +11,7 @@ import Title from '@/components/Title';
 import Intro from '@/components/Intro';
 import Text from '@/components/Text';
 import Script from 'next/script'
+import TypeIt from "typeit-react";
 
 export default function Home(){
 
@@ -38,8 +39,14 @@ export default function Home(){
       <Intro>
       <Title text="DESINFORMATION" />
       <MessageBox>
-      <Text text = "Bonjour."/>
-      <Text text = "Je suis D-tEye: le virus informatique qui sévit pendant cette bacchanight..."/>
+      {/* <Text text = "Bonjour."/> */}
+      <TypeIt options={{
+      strings: ["Bonjour. Je suis D-tEye: le virus informatique qui sévit pendant cette bacchanight..."],
+      speed: 10,
+      waitUntilVisible: true,
+    }}className ="text-primary">
+  </TypeIt>
+      {/* <Text text = "Bonjour. Je suis D-tEye: le virus informatique qui sévit pendant cette bacchanight..."/> */}
       </MessageBox>
       <div className='w-full flex justify-end'>
       <Button id={slide} text="SUIVANT" onClick={handleNext}  />
@@ -53,6 +60,12 @@ export default function Home(){
         <Intro>
         <Title text="LE SENS DU DETAIL" />
         <MessageBox>
+        {/* <TypeIt options={{
+      strings: ["Les organisateurs m’accusent de désinformation historique car je me suis permis, à dessein, de rajouter quelques éléments sur certains tableaux"],
+      speed: 10,
+      waitUntilVisible: false,
+    }}className ="text-primary">
+  </TypeIt> */}
         <Text text = "Les organisateurs m’accusent de désinformation historique car je me suis permis, à dessein, de rajouter quelques éléments sur certains tableaux"/>
         </MessageBox>
         <div className='w-full flex justify-end'>
@@ -68,8 +81,14 @@ export default function Home(){
           <Intro>
           <Title text="PROGRAMME MALVEILLANT" />
           <MessageBox>
-          <Text text = "Aurez-vous l’œil assez aiguisé pour identifier les différences que j’ai dissimulées dans les versions numériques des peintures ? "/>
-          <Text text = "Pour le savoir, commencez par télécharger le dossier contenant les œuvres infectées" />
+          <TypeIt options={{
+      strings: ["Aurez-vous l’œil assez aiguisé pour identifier les différences que j’ai dissimulées dans les versions numériques des peintures ?"," "," Pour le savoir, commencez par télécharger le dossier contenant les œuvres infectées"],
+      speed: 10,
+      waitUntilVisible: true,
+    }}className ="text-primary">
+  </TypeIt>
+          {/* <Text text = "Aurez-vous l’œil assez aiguisé pour identifier les différences que j’ai dissimulées dans les versions numériques des peintures ? "/> */}
+          {/* <Text text = "Pour le savoir, commencez par télécharger le dossier contenant les œuvres infectées" /> */}
           </MessageBox>
           <div className='w-full flex justify-end'>
           <Button id={slide} text="SUIVANT" onClick={handleNext}  />

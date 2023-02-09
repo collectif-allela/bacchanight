@@ -1,7 +1,12 @@
-
+import TypeIt from "typeit-react";
 export default function Text(props: any) {
 
   return (
-        <p className='text-xl text-primary'>{props.text}</p>
+    <TypeIt options={{
+      strings: [props.text],
+      speed: 10,
+      waitUntilVisible: true,
+    }}className ="text-primary">
+  </TypeIt>
   )
 }

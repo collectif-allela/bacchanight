@@ -5,7 +5,6 @@ import Image from 'next/image'
 import { useState } from "react";
 import Button from "../components/Button"
 import Link from 'next/link'
-import Title from '../components/Title'
 
 export default function Paints(){
   return(
@@ -16,13 +15,13 @@ export default function Paints(){
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-        <div className='h-screen flex flex-col gap-y-16 justify-center items-center text-center relative'>
+        <div className='h-screen flex flex-col gap-y-10 justify-center items-center text-center relative'>
           <h1 className='uppercase text-3xl text-primary'>Voici les oeuvres infectées</h1>
           <div className='flex-col flex gap-y-12'>
-            <img className='w-[300px] h-auto' src="jour_des_mort.png" alt="" />
-            <img className='w-[300px] h-auto' src="waterloo_jaune.png" alt="" />
+            <img className='w-[300px] h-auto' src="jour_des_mort.png" alt="jour_des_morts" />
+            <img className='w-[300px] h-auto' src="waterloo_jaune.png" alt="bataille_waterloo" />
           </div>
-    
+
           <Link className='text-primary 'href="/game1"><Button text="COMMENCER LE JEU"/></Link>
         </div>
     </>
