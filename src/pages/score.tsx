@@ -3,10 +3,8 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link'
-import { Inter } from '@next/font/google'
 import styles from '@/styles/Home.module.css'
 
-const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
   return (
@@ -19,7 +17,7 @@ export default function Home() {
       </Head>
       <main>
         <div>
-          <h1 className='text-primary font-bold'>Score, c'est fini</h1>
+          <h1 className='text-primary font-bold'>Score, cest fini</h1>
         </div>
         <Link href="/credits" className='text-white'>
           Afficher les crédits
