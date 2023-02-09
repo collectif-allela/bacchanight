@@ -63,14 +63,12 @@ export default function Game1() {
           )
         default:
         return (
-          <div className='relative overflow-hidden'>
-            <img className='relative  h-screen max-w-none' src="/game1jaune.jpg" alt="" />
-            <div className='w-screen h-screen fixed top-0 flex flex-col justify-center items-center'>
-              <MessageBox text="Vous pouvez commencer la partie, essayez de trouver les deux queus de diable"/>
-                <div className='fixed bottom-8 z-50'>
+          <div className='h-screen relative overflow-hidden'>
+            <img className='absolute h-screen max-w-none' src="/game1jaune.jpg" alt="" />
+            <div className='h-full flex flex-col justify-center items-center'>
+              <MessageBox text="Vous pouvez commencer la partie, essayez de trouver les deux queus de diable">
                   <Button text="Jouer" onClick={changeScene}/>
-                </div>
-              <MessageBox/>
+              </MessageBox>
             </div>
           </div>
           )
