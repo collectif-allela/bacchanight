@@ -54,7 +54,7 @@ export default function Score() {
                 Les visiteurs passent en moyenne seulement 30 secondes devant un tableau.
               </span>
               <div>
-              <span className='font-offbit text-3xl'>3:30</span>
+              <span className='font-offbit text-5xl'>3:30</span>
               </div>
             </div>
             <MessageBox>
