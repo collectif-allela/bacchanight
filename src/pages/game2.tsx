@@ -4,7 +4,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link'
 import styles from '@/styles/Home.module.css'
-import Paint from '@/components/Paint'
+import Paint1 from '@/components/Paint1'
 import MessageBox from '@/components/MessageBox'
 import { useState } from "react"
 import Score from '@/components/Score'
@@ -42,14 +42,14 @@ export default function Game1() {
     case 1:
     return (
       <div className='relative'>
-      <Paint itemClick={increaseScore} class="max-w-none " src="/jour_des_morts.jpg"/>
+      <Paint1 itemClick={increaseScore} class="max-w-none " src="/waterloo.jpg"/>
       <Score score={score}/>
       </div>
       )
       case 2:
       return (
         <div className='relative'>
-        <Paint itemClick={increaseScore} class="max-w-none " src="/jour_des_morts.jpg"/>
+        <Paint1 itemClick={increaseScore} class="max-w-none " src="/waterloo.jpg"/>
         <Score score={score}/>
         </div>
         )

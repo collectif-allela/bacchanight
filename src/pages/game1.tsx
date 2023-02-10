@@ -48,21 +48,6 @@ export default function Game1() {
     return (
     <div className='relative'>
       <Paint itemClick={increaseScore} class="max-w-none " src="/jour_des_morts.jpg"/>
-      {/* <div className='fixed top-5 z-50 w-screen'>
-        <div className='mx-4 p-4 border-2 border-primary/50 bg-black/80 rounded-md'>
-          <div className="flex justify-center">
-            <div className="flex w-10/12 max-w-3xl flex-col items-start gap-y-3">
-              <input type="checkbox" id="input4" className="default:checked: peer absolute hidden" />
-              <label htmlFor="input4" className="w-full text-center font-offbit text-primary peer-checked:text-primary">Lire l`histoire</label>
-              <div className="hidden overflow-hidden default:hidden peer-checked:block">
-                <p className="text-primary">Le Jour des morts représente une mère et sa fille pleurant la perte d’un mari et d’un père au pied d’une croix tumulaire. L’artiste emploie le champ lexical de la mort avec le noir, les couronnes d’immortelles, la croix, l’hiver. Les critiques de l’époque saluèrent « la modernité du sujet » (Mathilde Stevens), traduite par une expression réaliste de la douleur et son humanité (Maxime Ducamp).
-                  Dans ses œuvres, Bouguereau, avec son aptitude à faire coïncider le rêve et la réalité, exprime les valeurs qui lui sont chères : la culture classique, le bonheur familial, l’espérance en la vie, la foi chrétienne.</p>
-                </div>
-                <span className="h-[1px] w-full bg-primary"></span>
-              </div>
-            </div>
-          </div>
-        </div> */}
         <Story storyPart={story}/>
         <Score score={score}/>
       </div>
@@ -100,7 +85,7 @@ export default function Game1() {
         {/* <Text text="En réalité, je vous ai proposé cette expérience pour répondre à une problématique grandissante : la consommation toujours plus rapides des œuvres d’art présentées dans les musées."/> */}
       </MessageBox>
       <div className='mx-auto'>
-        <Link href="/game2"><Button text="SUIVANT"/></Link>
+        <Link href="/game2"><Button text="niveau suivant"/></Link>
       </div>
     </div>
   </div>

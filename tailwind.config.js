@@ -19,7 +19,7 @@ module.exports = {
         'aeonik': ['var(--aenoik)'],
         'offbit': ['var(--offbit)'],
         'title': ['var(--offbit)'],
-        'body': ['var(--aeonik)']
+        'primary': ['var(--aeonik)']
       },
       backgroundImage: {
         'game1': "url('/public/jour_des_mort.png')",

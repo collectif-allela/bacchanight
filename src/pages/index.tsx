@@ -38,8 +38,8 @@ export default function Home(){
             <div className='h-screen flex flex-col justify-evenly items-center pb-12 '>
               <img className='w-4/12 mx-auto' src="/d-teye.png" alt="d-teye image" />
             <MessageBox>
-            <div className='w-full text-center items-center'>
-            <Text text = "INSTALLATION DU PROGRAMME MALVEILLANT"/>
+            <div className='w-full h-full flex flex-col justify-center'>
+            <span className='text-primary uppercase text-2xl'>INSTALLATION DU PROGRAMME MALVEILLANT Completed ...</span>
             </div>
             </MessageBox>
             <img src="empty_folder.svg"></img>
@@ -121,12 +121,12 @@ export default function Home(){
           case 6:
           return (
             <Container>
-            <div className='h-screen flex flex-col justify-center py-12'>
-            <div className='w-full bg-primary bg-opacity-20 p-4 rounded-md border-2 border-primary z-50'>
+            <div className='h-screen w-screen flex flex-col justify-center py-12'>
+            <div className='w-full bg-primary bg-opacity-20 px-4 py-6 rounded-md border-2 border-primary z-50'>
             <div className='w-full text-center justify-center items-center flex-col flex gap-y-10'>
-            <img src="empty_folder.svg"></img>
-            <Title text = "chargement"/>
-            <Link href="/paints"><Button text="page paints"/></Link>
+            <img src="full_folder.svg"></img>
+            <Title text = "terminé"/>
+            <Link href="/paints"><Button text="Voir les peintures"/></Link>
             </div>
             </div>
             </div>
