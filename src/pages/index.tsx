@@ -10,8 +10,9 @@ import Title from '@/components/Title';
 import Intro from '@/components/Intro';
 import Text from '@/components/Text';
 import Script from 'next/script';
-import lottie from 'lottie-web';
-import anim from '../../public/anim_originelle.json';
+// import lottie from 'lottie-web';
+import Lottie from 'lottie-react'
+import anim from '../../public/animoriginelle.json'
 import React from 'react';
 import TypeIt from 'typeit-react';
 
@@ -19,30 +20,30 @@ import TypeIt from 'typeit-react';
 export default function Home(){
 
   const [slide, setSlide] = useState(0);
-  const container = useRef(null);
-  const isComplete = false;
-
-  useEffect(() => {
-    lottie.loadAnimation({
-      container: container.current,
-      renderer: 'svg',
-      loop: false,
-      autoplay: true,
-      animationData: anim,
-     // onEvent: {onComplete},
-      rendererSettings: {
-        preserveAspectRatio: 'xMidYMid slice'
-      
-    }
-    })
-    console.log('yp')
-  }, [])
-  // animation.onComplete()
-  
+  // const container = useRef(null);
 
   const handleNext = () => {
     setSlide(slide + 1)
   }
+  // useEffect(() => {
+  //   lottie.loadAnimation({
+  //     container: container.current,
+  //     renderer: 'svg',
+  //     loop: false,
+  //     autoplay: true,
+  //     animationData: anim,
+  //     onComplete : handleNext,
+  //     rendererSettings: {
+  //       preserveAspectRatio: 'xMidYMid slice'
+  //     }
+  //   })
+  // })
+  // anim.onComplete = function() {
+  //   console.log('complete')
+  // }
+  // anim.onLoopComplete = function() {
+  //   console.log('loopComplete')
+  // }
 
   <Head>
   <title>D-TEYE</title>
@@ -51,24 +52,23 @@ export default function Home(){
   <link rel="icon" href="/favicon.ico" />
   </Head>
 
-  // <Script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></Script>
 
 
   switch (slide) {
     case 1:
           return (
             <Container>
-            <Script src="https://third-party-script.js"></Script>
-            <div className='h-screen flex flex-col justify-center py-12'>
+            <div className='h-screen flex flex-col justify-evenly items-center py-12 '>
+              <img className='w-4/12 mx-auto' src="/d-teye.png" alt="d-teye image" />
             <MessageBox>
-            <div className='w-full text-center items-center flex-col flex gap-y-10'>
-            <img src="empty_folder.svg"></img>
-            <Title text = "INSTALLATION du programme MALVEILLANT"/>
-            <Button id={slide} text="commencer" onClick={handleNext}  />
+            <div className='w-full text-center items-center'>
+            <Text text = "INSTALLATION DU PROGRAMME MALVEILLANT"/>
+
+            {/* <Title text = "INSTALLATION DU PROGRAMME MALVEILLANT"/> */}
             </div>
             </MessageBox>
-            <div className='w-full flex justify-end'>
-            </div>
+            <img src="empty_folder.svg"></img>
+            <Button id={slide} text="commencer" onClick={handleNext}  />
             </div>
             </Container>
 
@@ -79,14 +79,13 @@ export default function Home(){
       <Intro>
       <Title text="DESINFORMATION" />
       <MessageBox>
-      {/* <Text text = "Bonjour."/> */}
+
       <TypeIt options={{
       strings: ["Bonjour. Je suis D-tEye: le virus informatique qui sévit pendant cette bacchanight..."],
       speed: 10,
       waitUntilVisible: true,
     }}className ="text-primary">
   </TypeIt>
-      {/* <Text text = "Bonjour. Je suis D-tEye: le virus informatique qui sévit pendant cette bacchanight..."/> */}
       </MessageBox>
       <div className='w-full flex justify-end'>
       <Button id={slide} text="SUIVANT" onClick={handleNext}  />
@@ -100,12 +99,6 @@ export default function Home(){
         <Intro>
         <Title text="LE SENS DU DETAIL" />
         <MessageBox>
-        {/* <TypeIt options={{
-      strings: ["Les organisateurs m’accusent de désinformation historique car je me suis permis, à dessein, de rajouter quelques éléments sur certains tableaux"],
-      speed: 10,
-      waitUntilVisible: false,
-    }}className ="text-primary">
-  </TypeIt> */}
         <Text text = "Les organisateurs m’accusent de désinformation historique car je me suis permis, à dessein, de rajouter quelques éléments sur certains tableaux"/>
         </MessageBox>
         <div className='w-full flex justify-end'>
@@ -127,8 +120,6 @@ export default function Home(){
       waitUntilVisible: true,
     }}className ="text-primary">
   </TypeIt>
-          {/* <Text text = "Aurez-vous l’œil assez aiguisé pour identifier les différences que j’ai dissimulées dans les versions numériques des peintures ? "/> */}
-          {/* <Text text = "Pour le savoir, commencez par télécharger le dossier contenant les œuvres infectées" /> */}
           </MessageBox>
           <div className='w-full flex justify-end'>
           <Button id={slide} text="SUIVANT" onClick={handleNext}  />
@@ -154,13 +145,10 @@ export default function Home(){
             )
           default:
           return (
-            <div className='h-screen w-screen'>
-              <Button id={slide} text="SUIVANT" onClick={handleNext}  />
-                <div  className='h-full w-auto' ref={container}></div>
+            <div className='h-screen w-screen relative'>
+              <Lottie  className='h-screen w-auto' animationData={anim} loop={false} autoplay={true} onComplete={handleNext} />
             </div>
 
             )
           }
-
-
         }
