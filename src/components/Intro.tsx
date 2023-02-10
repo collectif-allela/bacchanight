@@ -1,8 +1,10 @@
 export default function Container(props: any) {
 
   return (
-    <div className="h-screen flex flex-col justify-between py-12">
-    {props.children}
+    <div className="h-screen  py-12">
+      <div className="h-full flex flex-col justify-between pb-[30%]">
+        {props.children}
+      </div>
     </div>
 
   )
