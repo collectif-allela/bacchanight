@@ -18,7 +18,7 @@ import TypeIt from 'typeit-react';
 
 
 export default function Home(){
-  
+
   const [slide, setSlide] = useState(0);
   // const container = useRef(null);
 
@@ -88,10 +88,11 @@ export default function Home(){
   </TypeIt>
       </MessageBox>
       <div className='w-full flex justify-end'>
+      <Button id={slide} text="suivant" onClick={handleNext}  />
       </div>
       </div>
       </Container>
-      
+
       )
       case 2:
       return (
@@ -106,7 +107,7 @@ export default function Home(){
         </div>
         </Intro>
         </Container>
-        
+
         )
         case 4:
         return (
@@ -126,7 +127,7 @@ export default function Home(){
           </div>
           </Intro>
           </Container>
-          
+
           )
           case 5:
           return (
@@ -141,7 +142,7 @@ export default function Home(){
             </MessageBox>
             </div>
             </Container>
-            
+
             )
           default:
           return (
