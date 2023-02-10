@@ -1,7 +1,7 @@
-export default function Container(props: any) {
+export default function Intro(props: any) {
 
   return (
-    <div className="h-screen  py-12">
+    <div className="h-full py-12">
       <div className="h-full flex flex-col justify-between py-[20%]">
         {props.children}
       </div>
