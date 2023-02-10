@@ -110,15 +110,15 @@ export default function Home(){
         return (
           <Container>
           <Intro>
-          <Title text="LE SENS DU DETAIL" />
-          <MessageBox>
+          <Title text="LE SENS DU DETAIL 1/2" />
+          <div className='w-full h-40 bg-primary bg-opacity-20 p-4 rounded-md border-2 border-primary z-50'>
           <TypeIt options={{
-      strings: ["Aurez-vous l’œil assez aiguisé pour identifier les différences que j’ai dissimulées dans les versions numériques des peintures ?"," "," Pour le savoir, commencez par télécharger le dossier contenant les œuvres infectées"],
+      strings: ["Aurez-vous l’œil assez aiguisé pour identifier les différences que j’ai dissimulées dans les versions numériques des peintures ?"," "],
       speed: 10,
       waitUntilVisible: true,
     }}className ="text-primary">
   </TypeIt>
-          </MessageBox>
+          </div>
           <div className='w-full flex justify-end'>
           <Button id={slide} text="SUIVANT" onClick={handleNext}  />
           </div>
@@ -127,16 +127,31 @@ export default function Home(){
 
           )
           case 5:
+            return (
+              <Container>
+              <Intro>
+              <Title text="LE SENS DU DETAIL 2/2" />
+              <div className='w-full h-40 bg-primary bg-opacity-20 p-4 rounded-md border-2 border-primary z-50'>
+              <Text text = "Pour le savoir, commencez par télécharger le dossier contenant les œuvres infectées"/>
+              </div>
+              <div className='w-full flex justify-end'>
+              <Button id={slide} text="SUIVANT" onClick={handleNext}  />
+              </div>
+              </Intro>
+              </Container>
+    
+              )
+          case 6:
           return (
             <Container>
             <div className='h-screen flex flex-col justify-center py-12'>
-            <MessageBox>
+            <div className='w-full bg-primary bg-opacity-20 p-4 rounded-md border-2 border-primary z-50'>
             <div className='w-full text-center justify-center items-center flex-col flex gap-y-10'>
             <img src="empty_folder.svg"></img>
             <Title text = "chargement"/>
             <Link href="/paints"><Button text="page paints"/></Link>
             </div>
-            </MessageBox>
+            </div>
             </div>
             </Container>
 

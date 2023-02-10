@@ -79,7 +79,7 @@ export default function Game1() {
             <Container>
             <div className='h-screen flex flex-col justify-center'>
             
-            <div className='w-full bg-black bg-opacity-70 p-4 rounded-md border-2 border-primary z-50'>
+            <div className='w-full h-80 bg-black bg-opacity-70 p-4 rounded-md border-2 border-primary z-50'>
             <div className='flex flex-col gap-y-16'>
             <div className='w-full text-center'>
             <Title text="TROUVEZ LES 7 ERREURS"/>
