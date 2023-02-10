@@ -1,12 +1,19 @@
 
 // This page is the home page
-import Head from 'next/head'
-import Image from 'next/image'
-import Link from 'next/link'
-import styles from '@/styles/Home.module.css'
+import Head from 'next/head';
+import Link from 'next/link';
+import styles from '@/styles/Home.module.css';
+import MessageBox from '@/components/MessageBox';
+import { useState } from "react";
+import Container from '@/components/Container';
+import Button from "../components/Button";
+import Title from '@/components/Title';
+import Text from '@/components/Text';
+import Intro from '@/components/Intro';
+import TypeIt from 'typeit-react';
 
 
-export default function Home() {
+export default function Conclusion() {
   return (
     <>
       <Head>
@@ -15,14 +22,26 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main>
-        <div>
-          <h1 className='text-primary font-bold'>Conclusion</h1>
+      <Container>
+        <Intro>
+          <Title text="BON BACCHANIGHT" />
+          <img className='w-4/12 mx-auto' src="/d-teye.png" alt="d-teye image" />
+
+          <div className='w-full bg-primary bg-opacity-20 p-4 rounded-md border-2 border-primary z-50'>
+        <TypeIt options={{
+          strings: ["Vous aurez certainement quelques problèmes si vous peignez sur les toiles présentées aux Beaux Arts… "," ","","Mais il y’a un endroit ou vous pouvez transformer les tableaux sans aucun risque de poursuite judiciaire : votre imagination. Dans les pensées, tout devient possible."," ","", "J'espère que ce virus sera contagieux ;)"," ","", "Belle BACCHANIGHT."],
+          speed: 10,
+          waitUntilVisible: true,
+        }}className ="text-primary">
+        </TypeIt>
         </div>
-        <Link href="/score" className='text-white'>
-          Score
-        </Link>
-      </main>
+        <div className='w-full flex justify-between'>
+        <Link href="/credits"><Button text="crédits"/></Link>
+        <Link href="/index"><Button text="récommencer"/></Link>
+
+        </div>
+        </Intro>
+        </Container>
     </>
   )
 }

@@ -9,8 +9,6 @@ import MessageBox from '@/components/MessageBox';
 import Title from '@/components/Title';
 import Intro from '@/components/Intro';
 import Text from '@/components/Text';
-import Script from 'next/script';
-// import lottie from 'lottie-web';
 import Lottie from 'lottie-react'
 import anim from '../../public/animoriginelle.json'
 import React from 'react';
