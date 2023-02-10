@@ -49,12 +49,12 @@ export default function Game1() {
       <div className='fixed top-5 z-50 w-screen'>
         <div className='mx-4 p-4 border-2 border-primary/50 bg-black/80 rounded-md'>
           <div className="flex justify-center">
-            
+
           </div>
           <div className="flex justify-center">
             <div className="flex w-10/12 max-w-3xl flex-col items-start gap-y-3">
               <input type="checkbox" id="input4" className="default:checked: peer absolute hidden" />
-              <label htmlFor="input4" className="w-full text-center font-offbit text-primary peer-checked:text-primary">Lire l'histoire</label>
+              <label htmlFor="input4" className="w-full text-center font-offbit text-primary peer-checked:text-primary">Lire l`histoire</label>
               <div className="hidden overflow-hidden default:hidden peer-checked:block">
                 <p className="text-primary">Le Jour des morts représente une mère et sa fille pleurant la perte d’un mari et d’un père au pied d’une croix tumulaire. L’artiste emploie le champ lexical de la mort avec le noir, les couronnes d’immortelles, la croix, l’hiver. Les critiques de l’époque saluèrent « la modernité du sujet » (Mathilde Stevens), traduite par une expression réaliste de la douleur et son humanité (Maxime Ducamp).
                   Dans ses œuvres, Bouguereau, avec son aptitude à faire coïncider le rêve et la réalité, exprime les valeurs qui lui sont chères : la culture classique, le bonheur familial, l’espérance en la vie, la foi chrétienne.</p>
@@ -107,12 +107,12 @@ export default function Game1() {
   )
   default:
   return (
-  
+
   <div className='h-screen relative overflow-hidden'>
     <img className='absolute h-screen max-w-none z-0' src="/game1jaune.jpg" alt="" />
     <Container>
       <div className='h-screen flex flex-col justify-center'>
-        
+
         <div className='w-full bg-black bg-opacity-70 p-4 rounded-md border-2 border-primary z-50'>
           <div className='flex flex-col gap-y-16'>
             <div className='w-full text-center'>
