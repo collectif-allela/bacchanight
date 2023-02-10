@@ -3,7 +3,7 @@ import type { AppProps } from 'next/app'
 import localFont from '@next/font/local'
 
 const offbit = localFont({
-  src: '../../public/font/OffBitTrial-Regular.ttf',
+  src: '../../public/font/OffBitTrial-DotBold.ttf',
   variable: '--offbit'
 })
 
