@@ -15,7 +15,7 @@ export default function Paints(){
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-        <div className='h-screen flex flex-col gap-y-10 justify-center items-center text-center relative'>
+        <div className='h-full flex flex-col gap-y-10 justify-center items-center text-center relative'>
           <h1 className='uppercase text-3xl text-primary'>Voici les oeuvres infectées</h1>
           <div className='flex-col flex gap-y-12'>
             <img className='w-[300px] h-auto' src="jour_des_mort.png" alt="jour_des_morts" />
