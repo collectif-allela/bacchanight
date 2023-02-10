@@ -12,13 +12,12 @@ import Container from '@/components/Container'
 import Button from "../components/Button"
 import Title from '@/components/Title'
 import Text from '@/components/Text'
-import bg from '../../public/game1jaune.jpg'
 
 
 export default function Game1() {
   const [score, setScore]= useState(0);
   const [scene, setScene]= useState(0);
-  const scoreToWin = 2;
+  const scoreToWin = 7;
   
   function increaseScore(){
     // Add point to score
@@ -80,10 +79,11 @@ export default function Game1() {
             <Container>
             <div className='h-screen flex flex-col justify-center'>
             
-            <MessageBox>
+            <div className='w-full bg-black bg-opacity-70 p-4 rounded-md border-2 border-primary z-50'>
             <div className='flex flex-col gap-y-16'>
             <div className='w-full text-center'>
-            <Title text="TROUVEZ LES ERREURS"/>
+            <Title text="TROUVEZ LES 7 ERREURS"/>
+            <span className='font-offbit text-primary'>Niveau 2</span>
             </div>
             
             <Text text="Déplacez-vous dans
@@ -96,7 +96,7 @@ export default function Game1() {
             <Button text="Jouer" onClick={changeScene}/>
             </div>
             </div>
-            </MessageBox>
+            </div>
             </div>
             </Container>
             </div>
