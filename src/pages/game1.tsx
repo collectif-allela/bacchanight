@@ -20,7 +20,7 @@ export default function Game1() {
   const [score, setScore]= useState(0);
   const [scene, setScene]= useState(0);
 
-  const scoreToWin = 2;
+  const scoreToWin = 7;
 
   function increaseScore(){
     // Add point to score

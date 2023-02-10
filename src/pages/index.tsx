@@ -156,7 +156,6 @@ export default function Home(){
             default:
             return (
               <div className='h-full w-full'>
-              <Button id={slide} text="SUIVANT" onClick={handleNext}  />
               <div  className='h-full w-auto' ref={container}></div>
               </div>
               
