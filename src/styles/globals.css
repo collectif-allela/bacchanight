@@ -2,6 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: "aeonik";
+  src: url("../../public/font/AeonikTRIAL-Regular.otf"), format("opentype")
+}
+
+@font-face {
+  font-family: "offbit";
+  src: url("../../public/font/OffBitTrial-Regular.ttf"), format("truetype")
+}
+
 :root {
   --max-width: 1100px;
   --border-radius: 12px;
