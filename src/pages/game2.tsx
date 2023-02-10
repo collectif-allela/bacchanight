@@ -17,13 +17,8 @@ import Text from '@/components/Text'
 export default function Game1() {
   const [score, setScore]= useState(0);
   const [scene, setScene]= useState(0);
-<<<<<<< HEAD
-  const scoreToWin = 2;
-
-=======
   const scoreToWin = 7;
 
->>>>>>> 7791ebc80dd727044d5081356d27eab0c2dfc299
   function increaseScore(){
     // Add point to score
     setScore(score + 1);
