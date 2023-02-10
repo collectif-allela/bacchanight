@@ -46,6 +46,11 @@ export default function Game1() {
     return (
       <div className='relative'>
       <Paint itemClick={increaseScore} class="max-w-none " src="/jour_des_morts.jpg"/>
+      <div className='w-full'>
+        <div className='fixed top-0 border-2 border-primary/50 rounded-md m-4 p-4'>
+          <span className='text-primary '>je suis le texte le plus fou de cette terre</span>
+        </div>
+      </div>
       <Score score={score}/>
       </div>
       )
