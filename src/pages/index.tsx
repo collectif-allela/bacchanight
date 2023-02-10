@@ -13,6 +13,7 @@ import Script from 'next/script';
 import lottie from 'lottie-web';
 import anim from '../../public/anim_originelle.json';
 import React from 'react';
+import TypeIt from 'typeit-react';
 
 
 export default function Home(){
@@ -154,6 +155,7 @@ export default function Home(){
           default:
           return (
             <div className='h-screen w-screen'>
+              <Button id={slide} text="SUIVANT" onClick={handleNext}  />
                 <div  className='h-full w-auto' ref={container}></div>
             </div>
 
