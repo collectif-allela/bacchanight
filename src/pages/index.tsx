@@ -63,8 +63,6 @@ export default function Home(){
             <MessageBox>
             <div className='w-full text-center items-center'>
             <Text text = "INSTALLATION DU PROGRAMME MALVEILLANT"/>
-
-            {/* <Title text = "INSTALLATION DU PROGRAMME MALVEILLANT"/> */}
             </div>
             </MessageBox>
             <img src="empty_folder.svg"></img>
@@ -76,10 +74,9 @@ export default function Home(){
     case 2:
     return (
       <Container>
-      <Script src="https://third-party-script.js"></Script>
-      <div className='h-screen flex flex-col justify-center py-12'>
+      <Intro>
+      <Title text="PROGRAMME MALVEILLANT"/>
       <MessageBox>
-
       <TypeIt options={{
       strings: ["Bonjour. Je suis D-tEye: le virus informatique qui sévit pendant cette bacchanight..."],
       speed: 10,
@@ -90,11 +87,11 @@ export default function Home(){
       <div className='w-full flex justify-end'>
       <Button id={slide} text="suivant" onClick={handleNext}  />
       </div>
-      </div>
+      </Intro>
       </Container>
 
       )
-      case 2:
+      case 3:
       return (
         <Container>
         <Intro>
@@ -113,7 +110,7 @@ export default function Home(){
         return (
           <Container>
           <Intro>
-          <Title text="PROGRAMME MALVEILLANT" />
+          <Title text="LE SENS DU DETAIL" />
           <MessageBox>
           <TypeIt options={{
       strings: ["Aurez-vous l’œil assez aiguisé pour identifier les différences que j’ai dissimulées dans les versions numériques des peintures ?"," "," Pour le savoir, commencez par télécharger le dossier contenant les œuvres infectées"],
@@ -147,7 +144,7 @@ export default function Home(){
           default:
           return (
             <div className='h-screen w-screen relative'>
-              <Lottie  className='h-screen w-auto' animationData={anim} loop={false} autoplay={true} onComplete={handleNext} />
+              <Lottie  className='h-screen w-auto overflow-hidden' animationData={anim} loop={false} autoplay={true} onComplete={handleNext} />
             </div>
 
             )
