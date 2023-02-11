@@ -1,4 +1,6 @@
 import TypeIt from "typeit-react";
+import Text from "@/components/Text";
+
 export default function Story2(props: any) {
 
 switch (props.storyPart) {
