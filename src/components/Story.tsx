@@ -7,7 +7,7 @@ switch (props.storyPart) {
   case 1:
     return (
       <div className='fixed top-5 z-50 w-screen'>
-      <div i className='mx-4 p-2 border-2 border-primary/50 bg-black/70 rounded-md'>
+      <div className='mx-4 p-2 border-2 border-primary/50 bg-black/70 rounded-md'>
         <div className="flex justify-center">
           <div  className="flex w-10/12 max-w-3xl flex-col items-start gap-y-3">
             <input type="checkbox" id="input4" className="default:checked: peer absolute hidden"   />
