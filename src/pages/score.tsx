@@ -14,17 +14,6 @@ import TypeIt from 'typeit-react';
 
 
 export default function Score() {
-  const [scene, setScene]= useState(0);
-
-  function changeScene(){
-    setScene(scene + 1);
-  }
-  const [slide, setSlide] = useState(0);
-  // const container = useRef(null);
-
-  const handleNext = () => {
-    setSlide(slide + 1)
-  }
 
   <Head>
   <title>Game 1</title>
@@ -32,43 +21,36 @@ export default function Score() {
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="icon" href="/favicon.ico" />
   </Head>
+      return (
 
-  switch (scene) {
-    case 1:
-    return (
-      <div className='relative'>
-        <Title text="case 1"/>
-      </div>
-      )
-          default:
-          return (
-
-            <Container>
-            <Intro>
-            <Title text="statistiques"/>
-            <div className='text-primary flex flex-col w-full items-center gap-y-4'>
-              <span>
-                Les visiteurs passent en moyenne seulement 30 secondes devant un tableau.
-              </span>
-              <div>
-              <span className='font-offbit text-5xl'>3:30</span>
-              </div>
-            </div>
-            <MessageBox>
-            <TypeIt options={{
-            strings: ["Les différences que j’ai dissimulées n’étaient qu’un prétexte pour vous faire apprécier les détails que le peintre a imaginés..."],
+        <Container>
+        <Intro>
+        <Title text="statistiques"/>
+        <TypeIt className='text-primary' options={{
+            strings: ["Les visiteurs passent en moyenne seulement 30 secondes devant un tableau."],
             speed: 10,
             waitUntilVisible: true,
-          }}className ="text-primary">
+          }}>
         </TypeIt>
-            </MessageBox>
-            <div className='w-full flex justify-end'>
-            <Link href="/conclusion"><Button text="suivant"/></Link>
+        <div className='text-primary flex flex-col w-full items-center gap-y-4'>
+        <img className='w-4/12 mx-auto' src="/d-teye.png" alt="d-teye image" />
 
-            </div>
-            </Intro>
-            </Container>
-            )
-          }
+        </div>
+        <MessageBox>
+        <TypeIt options={{
+        strings: ["Les différences que j’ai dissimulées n’étaient qu’un prétexte pour vous faire apprécier les détails que le peintre a imaginés..."],
+        speed: 10,
+        waitUntilVisible: true,
+        startDelay: 3000,
+      }}className ="text-primary">
+    </TypeIt>
+        </MessageBox>
+        <div className='w-full flex justify-end'>
+        <Link href="/conclusion"><Button text="suivant"/></Link>
 
-        }
+        </div>
+        </Intro>
+        </Container>
+        )
+      }
+

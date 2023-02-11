@@ -6,7 +6,7 @@ import Link from 'next/link'
 import styles from '@/styles/Home.module.css'
 import Paint from '@/components/Paint'
 import MessageBox from '@/components/MessageBox'
-import { useState } from "react"
+import { useState, useEffect } from "react"
 import Score from '@/components/Score'
 import Container from '@/components/Container'
 import Button from "../components/Button"
@@ -15,6 +15,7 @@ import Story from '@/components/Story'
 import Text from '@/components/Text'
 import bg from '../../public/game1jaune.jpg'
 import TypeIt from "typeit-react";
+import Chronometer from '@/components/Chronometre'
 
 
 export default function Game1() {
@@ -22,11 +23,12 @@ export default function Game1() {
   const [scene, setScene]= useState(0);
   const [story, setStory]= useState(0);
   const scoreToWin = 7;
-
   function increaseScore(){
+    
     // Add point to score
     setScore(score + 1);
     setStory(story + 1);
+
     if (score == scoreToWin - 1) {
       setScene(2);
     }
@@ -52,27 +54,25 @@ export default function Game1() {
         <Score score={score}/>
       </div>
       )
-      case 2:
+      case 2: 
       return (
       <div className='w-screen h-screen px-4 py-12'>
         <Title text ="bravo"/>
-        <div className='h-5/6 flex flex-col justify-between'>
-          <div className='mt-12 w-full'>
-            <h2 className='text-primary uppercase text'>
+        <div className='h-5/6 flex flex-col justify-evenly'>
+          <div className='mt-12 w-full uppercase text-primary'>
               <TypeIt options={{
-                strings: ["IDENTIFICATION DES ERREURS : COMPLETE ","objectif : atteint"],
+                strings: ["IDENTIFICATION DES ERREURS: COMPLETE ","objectif: atteint"],
                 speed: 10,
                 waitUntilVisible: true,
               }}>
             </TypeIt>
-          </h2>
         </div>
         <MessageBox>
           <TypeIt options={{
             strings: ["Passez au niveau suivant"],
             speed: 10,
             waitUntilVisible: true,
-            startDelay: 4000,
+            startDelay: 3000,
           }} className="text-primary">
         </TypeIt>
         {/* <Text text="En réalité, je vous ai proposé cette expérience pour répondre à une problématique grandissante : la consommation toujours plus rapides des œuvres d’art présentées dans les musées."/> */}
@@ -94,6 +94,7 @@ export default function Game1() {
         <div className='w-full bg-black bg-opacity-70 p-4 rounded-md border-2 border-primary z-50'>
           <div className='flex flex-col gap-y-16'>
             <div className='w-full text-center'>
+              <Chronometer elapsedTime={elapsedTime}/>
               <Title text="TROUVEZ LES 7 ERREURS"/>
               <span className='font-offbit text-primary'>Niveau 1</span>
             </div>

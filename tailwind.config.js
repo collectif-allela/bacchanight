@@ -24,6 +24,16 @@ module.exports = {
       backgroundImage: {
         'game1': "url('/public/jour_des_mort.png')",
         'footer-texture': "url('/img/footer-texture.png')",
+      },
+      keyframes: {
+        spark: {
+          '0%' :     '{background:black;}',
+          '100%':    '{background:red;}'
+   
+        }
+      },
+      animation: {
+        spark: 'spark 4s',
       }
     },
   plugins: [],

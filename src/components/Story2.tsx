@@ -16,6 +16,8 @@ switch (props.storyPart) {
             <div className="hidden overflow-hidden default:hidden peer-checked:block">
 
               <p className="text-primary">Le Jour des morts représente une mère et sa fille pleurant la perte d’un mari et d’un père au pied d’une croix tumulaire. L’artiste emploie le champ lexical de la mort avec le noir,</p>
+              <Text text="L’artiste emploie le champ lexical de la mort avec le noir," className="text-primary"> </Text>
+
               </div>
             </div>
           </div>

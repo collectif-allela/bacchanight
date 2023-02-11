@@ -56,18 +56,23 @@ export default function Game1() {
         return (
           <div className='w-screen h-screen px-4 pt-12'>
           <Title text = "bravo"/>
-          <div className='h-5/6 flex flex-col justify-between mx-4'>
-            <div className='mt-12'>
-            <TypeIt options={{
-                strings: ["IDENTIFICATION DES ERREURS : COMPLETE ","objectif : atteint"],
+          <div className='h-5/6 flex flex-col justify-evenly'>
+          <div className='mt-12 w-full uppercase text-primary'>
+              <TypeIt options={{
+                strings: ["IDENTIFICATION DES ERREURS: COMPLETE ","objectif: atteint"],
                 speed: 10,
                 waitUntilVisible: true,
               }}>
             </TypeIt>
-            </div>
-            <MessageBox>
-          <Text text="En réalité, je vous ai proposé cette expérience pour répondre à une problématique grandissante : la consommation toujours plus rapides des œuvres d’art présentées dans les musées."/>
-          </MessageBox>
+          </div>
+          <div className='w-full bg-primary bg-opacity-20 p-4 rounded-md border-2 border-primary z-50'>
+            <TypeIt options={{
+            strings: ["En réalité, je vous ai proposé cette expérience pour répondre à une problématique grandissante : la consommation toujours plus rapides des œuvres d’art présentées dans les musées."],
+            speed: 10,
+            waitUntilVisible: true,
+            startDelay: 3000,
+          }} className="text-primary"/>
+          </div>
           <div className='mx-auto'>
           <Link href="/score"><Button text="SUIVANT"/></Link>
           </div>
