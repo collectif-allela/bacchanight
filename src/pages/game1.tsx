@@ -59,7 +59,7 @@ export default function Game1() {
       <div className='w-screen h-screen px-4 py-12'>
         <Title text ="bravo"/>
         <div className='h-5/6 flex flex-col justify-evenly'>
-          <div className='mt-12 w-full uppercase text-primary'>
+          <div className='mt-12 w-full uppercase text-primary font-title'>
               <TypeIt options={{
                 strings: ["IDENTIFICATION DES ERREURS: COMPLETE ","objectif: atteint"],
                 speed: 10,
@@ -67,6 +67,8 @@ export default function Game1() {
               }}>
             </TypeIt>
         </div>
+        <img className='w-4/12 mx-auto' src="/d-teye.png" alt="d-teye image" />
+
         <MessageBox>
           <TypeIt options={{
             strings: ["Passez au niveau suivant"],
@@ -100,7 +102,7 @@ export default function Game1() {
             <TypeIt
             options={{
               strings: ["Déplacez-vous dans les tableau pour trouver les erreurs."," ",
-              "Générez la réinterprétation de l’histoire en cliquant sur les erreurs."],
+              "Générez l'interprétation de l'histoire en cliquant sur les erreurs."],
               speed: 10,
               waitUntilVisible: true,
 

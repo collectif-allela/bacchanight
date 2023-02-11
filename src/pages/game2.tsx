@@ -57,7 +57,7 @@ export default function Game1() {
           <div className='w-screen h-screen px-4 pt-12'>
           <Title text = "bravo"/>
           <div className='h-5/6 flex flex-col justify-evenly'>
-          <div className='mt-12 w-full uppercase text-primary'>
+          <div className='mt-12 w-full uppercase font-title text-primary'>
               <TypeIt options={{
                 strings: ["IDENTIFICATION DES ERREURS: COMPLETE ","objectif: atteint"],
                 speed: 10,
@@ -65,6 +65,8 @@ export default function Game1() {
               }}>
             </TypeIt>
           </div>
+          <img className='w-4/12 mx-auto' src="/d-teye.png" alt="d-teye image" />
+
           <div className='w-full bg-primary bg-opacity-20 p-4 rounded-md border-2 border-primary z-50'>
             <TypeIt options={{
             strings: ["En réalité, je vous ai proposé cette expérience pour répondre à une problématique grandissante : la consommation toujours plus rapides des œuvres d’art présentées dans les musées."],
@@ -95,8 +97,8 @@ export default function Game1() {
             </div>
             <TypeIt
             options={{
-              strings: ["Déplacez-vous dans les tableau pour trouver les erreurs."," ",
-              "Générez la réinterprétation de l’histoire en cliquant sur les erreurs."],
+              strings: ["Vous le savez déjà, déplacez-vous dans les tableau pour trouver les erreurs."," ",
+              "Générez l'interprétation de l'histoire en cliquant sur les erreurs."," ","Cette fois sera un peu plus complique..."],
               speed: 10,
               waitUntilVisible: true,
 

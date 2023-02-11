@@ -35,15 +35,18 @@ export default function Home(){
     case 1:
           return (
             <Container>
-            <div className='h-screen flex flex-col justify-evenly items-center pb-12 '>
+            <div className='h-screen min-w-full flex flex-col justify-evenly items-center pb-12 '>
               <img className='w-4/12 mx-auto' src="/d-teye.png" alt="d-teye image" />
             <MessageBox>
-            <div className='w-full h-full flex flex-col justify-center'>
-            <Text text="INSTALLATION DU PROGRAMME MALVEILLANT TÉRMINÉ ..."className='text-primary uppercase text-3xl'/>
+            <div className='w-full h-full flex flex-col justify-center font-title text-primary text-center text-xl'>            <TypeIt options={{
+          strings: ["INSTALLATION DU PROGRAMME MALVEILLANT"],
+          speed: 2,
+          waitUntilVisible: true,
+        }}></TypeIt>
             </div>
             </MessageBox>
             <img src="empty_folder.svg"></img>
-            <Button id={slide} text="commencer" onClick={handleNext}  />
+            <Button id={slide} text="suivant" onClick={handleNext}  />
             </div>
             </Container>
 
@@ -61,6 +64,8 @@ export default function Home(){
     }}className ="text-primary">
   </TypeIt>
       </MessageBox>
+      <img className='w-4/12 mx-auto' src="/Dossier.svg" alt="d-teye image" />
+
       <div className='w-full flex justify-end'>
       <Button id={slide} text="suivant" onClick={handleNext}  />
       </div>
@@ -76,6 +81,8 @@ export default function Home(){
         <MessageBox>
         <Text text = "Les organisateurs m’accusent de désinformation historique car je me suis permis, à dessein, de rajouter quelques éléments sur certains tableaux"/>
         </MessageBox>
+        <img className='w-4/12 mx-auto' src="/Dossier-1.svg" alt="d-teye image" />
+
         <div className='w-full flex justify-end'>
         <Button id={slide} text="suivant" onClick={handleNext}  />
         </div>
@@ -96,6 +103,8 @@ export default function Home(){
     }}className ="text-primary">
   </TypeIt>
           </div>
+          <img className='w-4/12 mx-auto' src="/Dossier-2.svg" alt="d-teye image" />
+
           <div className='w-full flex justify-end'>
           <Button id={slide} text="SUIVANT" onClick={handleNext}  />
           </div>
@@ -111,8 +120,10 @@ export default function Home(){
               <div className='w-full h-40 bg-primary bg-opacity-20 p-4 rounded-md border-2 border-primary z-50'>
               <Text text = "Pour le savoir, commencez par télécharger le dossier contenant les œuvres infectées"/>
               </div>
+              <img className='w-4/12 mx-auto' src="/full_folder.svg" alt="full-folder" />
+
               <div className='w-full flex justify-end'>
-              <Button id={slide} text="SUIVANT" onClick={handleNext}  />
+              <Button id={slide} text="Télécharger" onClick={handleNext}  />
               </div>
               </Intro>
               </Container>
@@ -125,7 +136,7 @@ export default function Home(){
             <div className='w-full bg-primary bg-opacity-20 px-4 py-6 rounded-md border-2 border-primary z-50'>
             <div className='w-full text-center justify-center items-center flex-col flex gap-y-10'>
             <img src="full_folder.svg"></img>
-            <Title text = "terminé"/>
+            <Title text = "Fichiers téléchargés"/>
             <Link href="/paints"><Button text="Voir les peintures"/></Link>
             </div>
             </div>
