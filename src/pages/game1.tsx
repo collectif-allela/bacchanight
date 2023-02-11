@@ -28,7 +28,7 @@ export default function Game1() {
     setScore(score + 1);
     setStory(story + 1);
     if (score == scoreToWin - 1) {
-      setScene(3);
+      setScene(2);
     }
   };
 
@@ -54,25 +54,18 @@ export default function Game1() {
       )
       case 2:
       return (
-      <div className='relative'>
-        <Paint itemClick={increaseScore} class="max-w-none " src="/jour_des_morts.jpg"/>
-        <Score score={score}/>
-      </div>
-      )
-      case 3:
-      return (
-      <div className='w-screen h-screen px-4 pt-12'>
+      <div className='w-screen h-screen px-4 py-12'>
         <Title text ="bravo"/>
         <div className='h-5/6 flex flex-col justify-between'>
           <div className='mt-12 w-full'>
-            <h3 className='text-primary uppercase'>
+            <h2 className='text-primary uppercase text'>
               <TypeIt options={{
                 strings: ["IDENTIFICATION DES ERREURS : COMPLETE ","objectif : atteint"],
                 speed: 10,
                 waitUntilVisible: true,
               }}>
             </TypeIt>
-          </h3>
+          </h2>
         </div>
         <MessageBox>
           <TypeIt options={{

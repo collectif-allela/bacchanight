@@ -39,7 +39,7 @@ export default function Home(){
               <img className='w-4/12 mx-auto' src="/d-teye.png" alt="d-teye image" />
             <MessageBox>
             <div className='w-full h-full flex flex-col justify-center'>
-            <span className='text-primary uppercase text-2xl'>INSTALLATION DU PROGRAMME MALVEILLANT Completed ...</span>
+            <Text text="INSTALLATION DU PROGRAMME MALVEILLANT TÉRMINÉ ..."className='text-primary uppercase text-3xl'/>
             </div>
             </MessageBox>
             <img src="empty_folder.svg"></img>
