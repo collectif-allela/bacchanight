@@ -94,7 +94,6 @@ export default function Game1() {
         <div className='w-full bg-black bg-opacity-70 p-4 rounded-md border-2 border-primary z-50'>
           <div className='flex flex-col gap-y-16'>
             <div className='w-full text-center'>
-              <Chronometer elapsedTime={elapsedTime}/>
               <Title text="TROUVEZ LES 7 ERREURS"/>
               <span className='font-offbit text-primary'>Niveau 1</span>
             </div>
