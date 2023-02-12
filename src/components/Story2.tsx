@@ -17,8 +17,8 @@ switch (props.storyPart) {
             </label>
             <div className="hidden overflow-hidden default:hidden peer-checked:block">
 
-              <p className="text-primary">Aux troupes anglo-prussiennes de Wellington et Blücher, non loin de Bruxelles.</p>
-              <Text text="Après s’être échappé de l’île d’Elbe où il était retenu prisonnier," className="text-primary"> </Text>
+              <p className="text-primary">L’escadron avait noué des liens d’amitié fort pendant leurs activités militaires.</p>
+              <Text text="Le point commun qui les unissait était le goût de la fête," className="text-primary"> </Text>
 
               </div>
             </div>
@@ -38,15 +38,9 @@ switch (props.storyPart) {
               <img src="./dropdown.svg" className="peer-checked:hidden mx-auto absolute right-[48%] bottom-[-10px] w-5" alt="" />
             </label>
             <div className="hidden overflow-hidden default:hidden peer-checked:block">
-            <p className="text-primary">Aux troupes anglo-prussiennes de Wellington et Blücher, non loin de Bruxelles. Après s’être échappé de l’île d’Elbe où il était retenu prisonnier,
-            <TypeIt
-            options={{
-              strings: [" Napoléon regagne Paris le 20 mars 1815 et reprend le pouvoir (« Cent-Jours »)."],
-              speed: 10,
-              waitUntilVisible: true,
-            }}className ="text-primary">
-          </TypeIt></p>
-              </div>
+              <p className="text-primary">L’escadron avait noué des liens d’amitié fort pendant leurs activités militaires. Le point commun qui les unissait était le goût de la fête,</p>
+              <Text text='souvent au détriment de leur assiduité.'> </Text>
+            </div>
             </div>
           </div>
         </div>
@@ -65,14 +59,9 @@ switch (props.storyPart) {
               <img src="./dropdown.svg" className="peer-checked:hidden mx-auto absolute right-[48%] bottom-[-10px] w-5" alt="" />
             </label>
             <div className="hidden overflow-hidden default:hidden peer-checked:block">
-              <p className="text-primary">Aux troupes anglo-prussiennes de Wellington et Blücher, non loin de Bruxelles. Après s’être échappé de l’île d’Elbe où il était retenu prisonnier, Napoléon regagne Paris le 20 mars 1815 et reprend le pouvoir (« Cent-Jours »).</p>
-              <TypeIt
-            options={{
-              strings: ["Immédiatement, une coalition formée par la Russie, l’Autriche, la Prusse et l’Angleterre "],
-              speed: 10,
-              waitUntilVisible: true,
-            }}className ="text-primary">
-          </TypeIt>
+
+              <p className="text-primary">L’escadron avait noué des liens d’amitié fort pendant leurs activités militaires. Le point commun qui les unissait était le goût de la fête, souvent au détriment de leur assiduité.</p>
+              <Text text='Cette nuit n’avait pas fait exception. Ils avaient bu, dansé et chanté en oubliant d’éteindre le feu.'> </Text>
               </div>
               
             </div>
@@ -93,11 +82,8 @@ switch (props.storyPart) {
             </label>
             <div className="hidden overflow-hidden default:hidden peer-checked:block">
 
-              <p className="text-primary">Aux troupes anglo-prussiennes de Wellington et Blücher, non loin de Bruxelles. Après s’être échappé de l’île d’Elbe où il était retenu prisonnier,
-Napoléon regagne Paris le 20 mars 1815 et reprend le pouvoir (« Cent-Jours »).
-Immédiatement, une coalition formée par la Russie, l’Autriche, la Prusse et l’Angleterre <Text text="envoie des troupes à la frontière belge afin de préparer l’invasion de la France."/></p>
-
-
+              <p className="text-primary">L’escadron avait noué des liens d’amitié fort pendant leurs activités militaires. Le point commun qui les unissait était le goût de la fête, souvent au détriment de leur assiduité. Cette nuit n’avait pas fait exception. Ils avaient bu, dansé et chanté en oubliant d’éteindre le feu.</p>
+              <Text text=' Au réveil, la fumée s’élevait à des dizaines de mètres, '></Text>
               </div>
             </div>
           </div>
@@ -117,45 +103,15 @@ Immédiatement, une coalition formée par la Russie, l’Autriche, la Prusse et 
             </label>
             <div className="hidden overflow-hidden default:hidden peer-checked:block">
 
-              <p className="text-primary">Aux troupes anglo-prussiennes de Wellington et Blücher, non loin de Bruxelles. Après s’être échappé de l’île d’Elbe où il était retenu prisonnier,
-Napoléon regagne Paris le 20 mars 1815 et reprend le pouvoir (« Cent-Jours »).
-Immédiatement, une coalition formée par la Russie, l’Autriche, la Prusse et l’Angleterre envoie des troupes à la frontière belge afin de préparer l’invasion de la France.</p>
-<Text text="Ayant rassemblé une armée de 125 000 hommes, l'empereur se porte à la rencontre de l'ennemi. "/> 
+              <p className="text-primary">L’escadron avait noué des liens d’amitié fort pendant leurs activités militaires. Le point commun qui les unissait était le goût de la fête, souvent au détriment de leur assiduité. Cette nuit n’avait pas fait exception. Ils avaient bu, dansé et chanté en oubliant d’éteindre le feu. Au réveil, la fumée s’élevait à des dizaines de mètres, </p>
+              <Text text='ce qui avait permis a l’ennemi de les repérer et de prendre l’avantage en les surprenant.'></Text>
               </div>
             </div>
           </div>
         </div>
       </div>
             )
-        case 6:
-        return (
-          <div className='fixed top-5 z-50 w-screen'>
-          <div className='mx-4 p-2 border-2 border-primary/50 bg-black/70 rounded-md'>
-            <div className="flex justify-center">
-              <div className="flex w-10/12 max-w-3xl flex-col items-start gap-y-3">
-                <input type="checkbox" id="input4" className="default:checked: peer absolute hidden" />
-                <label htmlFor="input4" className="w-full text-center font-offbit text-primary peer-checked:text-primary underline">
-              Lire l`histoire
-              <img src="./dropdown.svg" className="peer-checked:hidden mx-auto absolute right-[48%] bottom-[-10px] w-5" alt="" />
-            </label>
-                <div className="hidden overflow-hidden default:hidden peer-checked:block">
-
-                  <p className="text-primary">Aux troupes anglo-prussiennes de Wellington et Blücher, non loin de Bruxelles. Après s’être échappé de l’île d’Elbe où il était retenu prisonnier,
-Napoléon regagne Paris le 20 mars 1815 et reprend le pouvoir (« Cent-Jours »).
-Immédiatement, une coalition formée par la Russie, l’Autriche, la Prusse et l’Angleterre envoie des troupes à la frontière belge afin de préparer l’invasion de la France. Ayant rassemblé une armée de 125 000 hommes, l'empereur se porte à la rencontre de l'ennemi. </p>
-<TypeIt
-            options={{
-              strings: ["L'affrontement principal, qui a lieu à Waterloo, se termine par une défaite française et la chute définitive du Premier empire."],
-              speed: 10,
-              waitUntilVisible: true,
-            }}className ="text-primary">
-          </TypeIt>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          )
+      
         default:
         return (
           <div className='fixed top-5 z-50 w-screen'>
@@ -170,7 +126,7 @@ Immédiatement, une coalition formée par la Russie, l’Autriche, la Prusse et 
             <div className="hidden overflow-hidden default:hidden peer-checked:block">
             <TypeIt
             options={{
-              strings: ["Aux troupes anglo-prussiennes de Wellington et Blücher, non loin de Bruxelles."],
+              strings: ["L’escadron avait noué des liens d’amitié fort pendant leurs activités militaires."],
               speed: 10,
               waitUntilVisible: true,
             }}className ="text-primary">
