@@ -16,8 +16,8 @@ switch (props.storyPart) {
               <img src="./dropdown.svg" className="peer-checked:hidden mx-auto absolute right-[48%] bottom-[-10px] w-5 " alt="" />
             </label>
             <div className="hidden overflow-hidden default:hidden peer-checked:block">
-              <p className="text-primary">Le Jour des morts représente une mère et sa fille pleurant la perte d’un mari et d’un père au pied d’une croix tumulaire. </p>
-              <Text text="L’artiste emploie le champ lexical de la mort avec le noir," className="text-primary"> </Text>
+              <p className="text-primary">La mère et la fille s’étaient rendues sur la tombe du père de famille. </p>
+              <Text text="Le diable grimé en civil, dont on voyait la queue dépasser de sa veste, leur proposa un marché " className="text-primary"> </Text>
               </div>
             </div>
           </div>
@@ -36,9 +36,9 @@ switch (props.storyPart) {
               <img src="./dropdown.svg" className="peer-checked:hidden mx-auto absolute right-[48%] bottom-[-10px] w-5" alt="" />
             </label>
             <div className="hidden overflow-hidden default:hidden peer-checked:block">
-              <p className="text-primary">Le Jour des morts représente une mère et sa fille pleurant la perte d’un mari et d’un père au pied d’une croix tumulaire. L’artiste emploie le champ lexical de la mort avec le noir,<TypeIt
+              <p className="text-primary">La mère et la fille s’étaient rendues sur la tombe du père de famille. Le diable grimé en civil, dont on voyait la queue dépasser de sa veste, leur proposa un marché<TypeIt
             options={{
-              strings: [" les couronnes d’immortelles, la croix, l’hiver. "],
+              strings: [" : sous forme de jeu rappelant la fête foraine."],
               speed: 10,
               waitUntilVisible: true,
             }}className ="text-primary">
@@ -64,8 +64,8 @@ switch (props.storyPart) {
               <img src="./dropdown.svg" className="peer-checked:hidden mx-auto absolute right-[48%] bottom-[-10px] w-5" alt="" />
             </label>
             <div className="hidden overflow-hidden default:hidden peer-checked:block">
-              <p className="text-primary">Le Jour des morts représente une mère et sa fille pleurant la perte d’un mari et d’un père au pied d’une croix tumulaire. L’artiste emploie le champ lexical de la mort avec le noir, les couronnes d’immortelles, la croix, l’hiver. </p>
-              <Text text="Les critiques de l’époque saluèrent « la modernité du sujet » (Mathilde Stevens),"/>
+              <p className="text-primary">La mère et la fille s’étaient rendues sur la tombe du père de famille. Le diable grimé en civil, dont on voyait la queue dépasser de sa veste, leur proposa un marché sous forme de jeu rappelant la fête foraine.</p>
+              <Text text="« Si vous arrivez à jeter le cerceau autour de la pierre tombale de votre mari, "/>
             
               </div>
             </div>
@@ -87,10 +87,11 @@ switch (props.storyPart) {
             <div className="hidden overflow-hidden default:hidden peer-checked:block">
 
               
-              <p className="text-primary">Le Jour des morts représente une mère et sa fille pleurant la perte d’un mari et d’un père au pied d’une croix tumulaire. L’artiste emploie le champ lexical de la mort avec le noir, les couronnes d’immortelles, la croix, l’hiver. Les critiques de l’époque saluèrent « la modernité du sujet » (Mathilde Stevens),
+              <p className="text-primary">La mère et la fille s’étaient rendues sur la tombe du père de famille. Le diable grimé en civil, dont on voyait la queue dépasser de sa veste, leur proposa un marché sous forme de jeu rappelant la fête foraine.
+« Si vous arrivez à jeter le cerceau autour de la pierre tombale de votre mari, 
               <TypeIt
             options={{
-              strings: [" traduite par une expression réaliste de la douleur et son humanité (Maxime Ducamp)."],
+              strings: ["je le ramènerai à la vie, sinon je prendrais celle de votre fille »."],
               speed: 10,
               waitUntilVisible: true,
             }}className ="text-primary">
@@ -117,8 +118,9 @@ switch (props.storyPart) {
             <div className="hidden overflow-hidden default:hidden peer-checked:block">
 
               <p className="text-primary">
-                Le Jour des morts représente une mère et sa fille pleurant la perte d’un mari et d’un père au pied d’une croix tumulaire. L’artiste emploie le champ lexical de la mort avec le noir, les couronnes d’immortelles, la croix, l’hiver. Les critiques de l’époque saluèrent « la modernité du sujet » (Mathilde Stevens), traduite par une expression réaliste de la douleur et son humanité (Maxime Ducamp). </p>
-                <Text text="Dans ses œuvres, Bouguereau, avec son aptitude à faire coïncider le rêve et la réalité,"/>
+              La mère et la fille s’étaient rendues sur la tombe du père de famille. Le diable grimé en civil, dont on voyait la queue dépasser de sa veste, leur proposa un marché sous forme de jeu rappelant la fête foraine.
+« Si vous arrivez à jeter le cerceau autour de la pierre tombale de votre mari, je le ramènerai à la vie, sinon je prendrais celle de votre fille ».</p>
+                <Text text="La mère accepta et se rendit compte seulement après les 3 lancers, "/>
 
               </div>
             </div>
@@ -139,11 +141,12 @@ switch (props.storyPart) {
             </label>
                 <div className="hidden overflow-hidden default:hidden peer-checked:block">
 
-                  <p className="text-primary">Le Jour des morts représente une mère et sa fille pleurant la perte d’un mari et d’un père au pied d’une croix tumulaire. L’artiste emploie le champ lexical de la mort avec le noir, les couronnes d’immortelles, la croix, l’hiver. Les critiques de l’époque saluèrent « la modernité du sujet » (Mathilde Stevens), traduite par une expression réaliste de la douleur et son humanité (Maxime Ducamp).
-    Dans ses œuvres, Bouguereau, avec son aptitude à faire coïncider le rêve et la réalité,
+                  <p className="text-primary">La mère et la fille s’étaient rendues sur la tombe du père de famille. Le diable grimé en civil, dont on voyait la queue dépasser de sa veste, leur proposa un marché sous forme de jeu rappelant la fête foraine.
+« Si vous arrivez à jeter le cerceau autour de la pierre tombale de votre mari, je le ramènerai à la vie, sinon je prendrais celle de votre fille ».
+La mère accepta et se rendit compte seulement après les 3 lancers, 
     <TypeIt
             options={{
-              strings: [" exprime les valeurs qui lui sont chères : la culture classique, le bonheur familial, l’espérance en la vie, la foi chrétienne."],
+              strings: ["que le cerceau n’était pas assez grand pour glisser autour du réceptacle…"],
               speed: 10,
               waitUntilVisible: true,
             }}className ="text-primary">
@@ -170,7 +173,7 @@ switch (props.storyPart) {
             <div className="hidden overflow-hidden default:hidden peer-checked:block">
             <TypeIt
             options={{
-              strings: ["Le Jour des morts représente une mère et sa fille pleurant la perte d’un mari et d’un père au pied d’une croix tumulaire."],
+              strings: ["La mère et la fille s’étaient rendues sur la tombe du père de famille. "],
               speed: 10,
               waitUntilVisible: true,
             }}className ="text-primary">
