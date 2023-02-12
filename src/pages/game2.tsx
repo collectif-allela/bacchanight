@@ -97,7 +97,7 @@ export default function Game2() {
               <TypeIt
               options={{
                 strings: ["Vous le savez déjà, déplacez-vous dans les tableau pour trouver les erreurs."," ",
-                "Générez l'interprétation de l'histoire en cliquant sur les erreurs."," ","Cette fois sera un peu plus complique..."],
+                "Générez l'interprétation de l'histoire en cliquant sur les erreurs."," ","Cette fois sera un peu plus compliquée..."],
                 speed: 10,
                 waitUntilVisible: true,
 

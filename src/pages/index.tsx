@@ -47,7 +47,7 @@ export default function Home(){
             </div>
             </MessageBox>
             <img className='w-4/12 mx-auto' src="empty_folder.svg"></img>
-            <div className='w-full flex justify-end'>
+            <div className='w-full flex justify-center'>
               <Button id={slide} text="suivant" onClick={handleNext}  />
             </div>
               </Intro>
@@ -70,7 +70,7 @@ export default function Home(){
       </MessageBox>
       <img className='w-4/12 mx-auto' src="/Dossier.svg" alt="d-teye image" />
 
-      <div className='w-full flex justify-end'>
+      <div className='w-full flex justify-center'>
       <Button id={slide} text="suivant" onClick={handleNext}  />
       </div>
       </Intro>
@@ -87,7 +87,7 @@ export default function Home(){
         </MessageBox>
         <img className='w-4/12 mx-auto' src="/Dossier-1.svg" alt="d-teye image" />
 
-        <div className='w-full flex justify-end'>
+        <div className='w-full flex justify-center'>
         <Button id={slide} text="suivant" onClick={handleNext}  />
         </div>
         </Intro>
@@ -109,7 +109,7 @@ export default function Home(){
           </div>
           <img className='w-4/12 mx-auto' src="/Dossier-2.svg" alt="d-teye image" />
 
-          <div className='w-full flex justify-end'>
+          <div className='w-full flex justify-center'>
           <Button id={slide} text="SUIVANT" onClick={handleNext}  />
           </div>
           </Intro>
@@ -126,7 +126,7 @@ export default function Home(){
               </div>
               <img className='w-4/12 mx-auto' src="/full_folder.svg" alt="full-folder" />
 
-              <div className='w-full flex justify-end'>
+              <div className='w-full flex justify-center'>
               <Button id={slide} text="Télécharger" onClick={handleNext}  />
               </div>
               </Intro>

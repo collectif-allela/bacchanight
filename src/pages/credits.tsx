@@ -37,8 +37,10 @@ export default function Home() {
               </div>
               <img className='w-4/12 mx-auto' src="/d-teye.png" alt="full-folder" />
 
-              <div className='w-full flex justify-center'>
+              <div className='w-full flex justify-between'>
               <Link href="https://allela-ed132b.webflow.io/home"><Button text="Voir plus"/></Link>
+              <Link href="/index"><Button text="récommencer"/></Link>
+
               </div>
               </Intro>
               </Container>

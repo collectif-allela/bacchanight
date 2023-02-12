@@ -45,7 +45,7 @@ export default function Score() {
       }}className ="text-primary">
     </TypeIt>
         </MessageBox>
-        <div className='w-full flex justify-end'>
+        <div className='w-full flex justify-center'>
         <Link href="/conclusion"><Button text="suivant"/></Link>
 
         </div>
