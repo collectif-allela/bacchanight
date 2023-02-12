@@ -35,7 +35,7 @@ export default function Home(){
     case 1:
           return (
             <Container>
-            <div className='h-screen min-w-full flex flex-col justify-evenly items-center pb-12 '>
+              <Intro>
               <img className='w-4/12 mx-auto' src="/d-teye.png" alt="d-teye image" />
             <MessageBox>
             <div className='w-full h-full flex flex-col justify-center font-title text-primary text-center text-xl'>            
@@ -46,9 +46,12 @@ export default function Home(){
         }}></TypeIt>
             </div>
             </MessageBox>
-            <img src="empty_folder.svg"></img>
-            <Button id={slide} text="suivant" onClick={handleNext}  />
+            <img className='w-4/12 mx-auto' src="empty_folder.svg"></img>
+            <div className='w-full flex justify-end'>
+              <Button id={slide} text="suivant" onClick={handleNext}  />
             </div>
+              </Intro>
+            
             </Container>
 
             )
