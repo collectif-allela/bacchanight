@@ -38,7 +38,8 @@ export default function Home(){
             <div className='h-screen min-w-full flex flex-col justify-evenly items-center pb-12 '>
               <img className='w-4/12 mx-auto' src="/d-teye.png" alt="d-teye image" />
             <MessageBox>
-            <div className='w-full h-full flex flex-col justify-center font-title text-primary text-center text-xl'>            <TypeIt options={{
+            <div className='w-full h-full flex flex-col justify-center font-title text-primary text-center text-xl'>            
+            <TypeIt options={{
           strings: ["INSTALLATION DU PROGRAMME MALVEILLANT"],
           speed: 2,
           waitUntilVisible: true,

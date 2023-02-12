@@ -13,11 +13,11 @@ import Button from "../components/Button"
 import Title from '@/components/Title'
 import Text from '@/components/Text'
 import TypeIt from "typeit-react";
-import Story2 from '@/components/Story'
+import Story2 from '@/components/Story2'
 
 
 
-export default function Game1() {
+export default function Game2() {
   const [score, setScore]= useState(0);
   const [scene, setScene]= useState(0);
   const [story, setStory]= useState(0);
@@ -83,24 +83,23 @@ export default function Game1() {
           )
           default:
           return (
-
             <div className='h-screen relative overflow-hidden'>
-            <img className='absolute h-screen max-w-none z-0' src="/game2jaune.svg" alt="" />
+            <img className='absolute w-full h-screen max-w-none z-0' src="/game2jaune.svg" alt="" />
             <Container>
-            <div className='h-screen flex flex-col justify-center'>
+              <div className='h-screen w-full flex flex-col justify-center'>
 
-            <div className='w-full bg-black bg-opacity-70 p-4 rounded-md border-2 border-primary z-50'>
-            <div className='flex flex-col gap-y-16'>
-            <div className='w-full text-center'>
-            <Title text="TROUVEZ LES 7 ERREURS"/>
-            <span className='font-offbit text-primary'>Niveau 2</span>
-            </div>
-            <TypeIt
-            options={{
-              strings: ["Vous le savez déjà, déplacez-vous dans les tableau pour trouver les erreurs."," ",
-              "Générez l'interprétation de l'histoire en cliquant sur les erreurs."," ","Cette fois sera un peu plus complique..."],
-              speed: 10,
-              waitUntilVisible: true,
+              <div className='w-full bg-black bg-opacity-70 p-4 rounded-md border-2 border-primary z-50'>
+              <div className='flex flex-col gap-y-16'>
+              <div className='w-full text-center'>
+              <Title text="TROUVEZ LES 7 ERREURS"/>
+              <span className='font-offbit text-primary'>Niveau 2</span>
+              </div>
+              <TypeIt
+              options={{
+                strings: ["Vous le savez déjà, déplacez-vous dans les tableau pour trouver les erreurs."," ",
+                "Générez l'interprétation de l'histoire en cliquant sur les erreurs."," ","Cette fois sera un peu plus complique..."],
+                speed: 10,
+                waitUntilVisible: true,
 
             }}className ="text-primary">
           </TypeIt>

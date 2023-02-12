@@ -17,8 +17,8 @@ switch (props.storyPart) {
             </label>
             <div className="hidden overflow-hidden default:hidden peer-checked:block">
 
-              <p className="text-primary">Le Jour des morts représente une mère et sa fille pleurant la perte d’un mari et d’un père au pied d’une croix tumulaire. L’artiste emploie le champ lexical de la mort avec le noir,</p>
-              <Text text="L’artiste emploie le champ lexical de la mort avec le noir," className="text-primary"> </Text>
+              <p className="text-primary">Aux troupes anglo-prussiennes de Wellington et Blücher, non loin de Bruxelles.</p>
+              <Text text="Après s’être échappé de l’île d’Elbe où il était retenu prisonnier," className="text-primary"> </Text>
 
               </div>
             </div>
@@ -38,8 +38,15 @@ switch (props.storyPart) {
               <img src="./dropdown.svg" className="peer-checked:hidden mx-auto absolute right-[48%] bottom-[-10px] w-5" alt="" />
             </label>
             <div className="hidden overflow-hidden default:hidden peer-checked:block">
-              <p className="text-primary">Le Jour des morts représente une mère et sa fille pleurant la perte d’un mari et d’un père au pied d’une croix tumulaire. L’artiste emploie le champ lexical de la mort avec le noir, les couronnes d’immortelles, la croix, l’hiver. </p>
-            </div>
+            <p className="text-primary">Aux troupes anglo-prussiennes de Wellington et Blücher, non loin de Bruxelles. Après s’être échappé de l’île d’Elbe où il était retenu prisonnier,
+            <TypeIt
+            options={{
+              strings: [" Napoléon regagne Paris le 20 mars 1815 et reprend le pouvoir (« Cent-Jours »)."],
+              speed: 10,
+              waitUntilVisible: true,
+            }}className ="text-primary">
+          </TypeIt></p>
+              </div>
             </div>
           </div>
         </div>
@@ -58,9 +65,16 @@ switch (props.storyPart) {
               <img src="./dropdown.svg" className="peer-checked:hidden mx-auto absolute right-[48%] bottom-[-10px] w-5" alt="" />
             </label>
             <div className="hidden overflow-hidden default:hidden peer-checked:block">
-
-              <p className="text-primary">Le Jour des morts représente une mère et sa fille pleurant la perte d’un mari et d’un père au pied d’une croix tumulaire. L’artiste emploie le champ lexical de la mort avec le noir, les couronnes d’immortelles, la croix, l’hiver. Les critiques de l’époque saluèrent « la modernité du sujet » (Mathilde Stevens), </p>
+              <p className="text-primary">Aux troupes anglo-prussiennes de Wellington et Blücher, non loin de Bruxelles. Après s’être échappé de l’île d’Elbe où il était retenu prisonnier, Napoléon regagne Paris le 20 mars 1815 et reprend le pouvoir (« Cent-Jours »).</p>
+              <TypeIt
+            options={{
+              strings: ["Immédiatement, une coalition formée par la Russie, l’Autriche, la Prusse et l’Angleterre "],
+              speed: 10,
+              waitUntilVisible: true,
+            }}className ="text-primary">
+          </TypeIt>
               </div>
+              
             </div>
           </div>
         </div>
@@ -79,7 +93,11 @@ switch (props.storyPart) {
             </label>
             <div className="hidden overflow-hidden default:hidden peer-checked:block">
 
-              <p className="text-primary">Le Jour des morts représente une mère et sa fille pleurant la perte d’un mari et d’un père au pied d’une croix tumulaire. L’artiste emploie le champ lexical de la mort avec le noir, les couronnes d’immortelles, la croix, l’hiver. Les critiques de l’époque saluèrent « la modernité du sujet » (Mathilde Stevens), traduite par une expression réaliste de la douleur et son humanité (Maxime Ducamp). </p>
+              <p className="text-primary">Aux troupes anglo-prussiennes de Wellington et Blücher, non loin de Bruxelles. Après s’être échappé de l’île d’Elbe où il était retenu prisonnier,
+Napoléon regagne Paris le 20 mars 1815 et reprend le pouvoir (« Cent-Jours »).
+Immédiatement, une coalition formée par la Russie, l’Autriche, la Prusse et l’Angleterre <Text text="envoie des troupes à la frontière belge afin de préparer l’invasion de la France."/></p>
+
+
               </div>
             </div>
           </div>
@@ -99,8 +117,10 @@ switch (props.storyPart) {
             </label>
             <div className="hidden overflow-hidden default:hidden peer-checked:block">
 
-              <p className="text-primary">Le Jour des morts représente une mère et sa fille pleurant la perte d’un mari et d’un père au pied d’une croix tumulaire. L’artiste emploie le champ lexical de la mort avec le noir, les couronnes d’immortelles, la croix, l’hiver. Les critiques de l’époque saluèrent « la modernité du sujet » (Mathilde Stevens), traduite par une expression réaliste de la douleur et son humanité (Maxime Ducamp).
-Dans ses œuvres, Bouguereau, avec son aptitude à faire coïncider le rêve et la réalité, </p>
+              <p className="text-primary">Aux troupes anglo-prussiennes de Wellington et Blücher, non loin de Bruxelles. Après s’être échappé de l’île d’Elbe où il était retenu prisonnier,
+Napoléon regagne Paris le 20 mars 1815 et reprend le pouvoir (« Cent-Jours »).
+Immédiatement, une coalition formée par la Russie, l’Autriche, la Prusse et l’Angleterre envoie des troupes à la frontière belge afin de préparer l’invasion de la France.</p>
+<Text text="Ayant rassemblé une armée de 125 000 hommes, l'empereur se porte à la rencontre de l'ennemi. "/> 
               </div>
             </div>
           </div>
@@ -120,9 +140,16 @@ Dans ses œuvres, Bouguereau, avec son aptitude à faire coïncider le rêve et 
             </label>
                 <div className="hidden overflow-hidden default:hidden peer-checked:block">
 
-                  <p className="text-primary">Le Jour des morts représente une mère et sa fille pleurant la perte d’un mari et d’un père au pied d’une croix tumulaire. L’artiste emploie le champ lexical de la mort avec le noir, les couronnes d’immortelles, la croix, l’hiver. Les critiques de l’époque saluèrent « la modernité du sujet » (Mathilde Stevens), traduite par une expression réaliste de la douleur et son humanité (Maxime Ducamp).
-    Dans ses œuvres, Bouguereau, avec son aptitude à faire coïncider le rêve et la réalité,exprime les valeurs qui lui sont chères : la culture classique, le bonheur familial, l’espérance en la vie, la foi chrétienne.
- </p>
+                  <p className="text-primary">Aux troupes anglo-prussiennes de Wellington et Blücher, non loin de Bruxelles. Après s’être échappé de l’île d’Elbe où il était retenu prisonnier,
+Napoléon regagne Paris le 20 mars 1815 et reprend le pouvoir (« Cent-Jours »).
+Immédiatement, une coalition formée par la Russie, l’Autriche, la Prusse et l’Angleterre envoie des troupes à la frontière belge afin de préparer l’invasion de la France. Ayant rassemblé une armée de 125 000 hommes, l'empereur se porte à la rencontre de l'ennemi. </p>
+<TypeIt
+            options={{
+              strings: ["L'affrontement principal, qui a lieu à Waterloo, se termine par une défaite française et la chute définitive du Premier empire."],
+              speed: 10,
+              waitUntilVisible: true,
+            }}className ="text-primary">
+          </TypeIt>
                   </div>
                 </div>
               </div>
@@ -143,12 +170,11 @@ Dans ses œuvres, Bouguereau, avec son aptitude à faire coïncider le rêve et 
             <div className="hidden overflow-hidden default:hidden peer-checked:block">
             <TypeIt
             options={{
-              strings: ["Le Jour des morts représente une mère et sa fille pleurant la perte d’un mari et d’un père au pied d’une croix tumulaire."],
+              strings: ["Aux troupes anglo-prussiennes de Wellington et Blücher, non loin de Bruxelles."],
               speed: 10,
               waitUntilVisible: true,
             }}className ="text-primary">
           </TypeIt>
-              {/* <p className="text-primary">Le Jour des morts représente une mère et sa fille pleurant la perte d’un mari et d’un père au pied d’une croix tumulaire. </p> */}
               </div>
             </div>
           </div>
