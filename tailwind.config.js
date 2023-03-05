@@ -17,7 +17,6 @@ module.exports = {
       },
       fontFamily: {
         'aeonik': ['var(--aenoik)'],
-        'offbit': ['var(--offbit)'],
         'redaction': ['var(--redaction)'],
         'title': ['var(--redaction)'],
         'primary': ['var(--aeonik)']
