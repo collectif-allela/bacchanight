@@ -69,7 +69,7 @@ export default function Game2() {
 
           <div className='w-full bg-primary bg-opacity-20 p-4 rounded-md border-2 border-primary z-50'>
             <TypeIt options={{
-            strings: ["En réalité, je vous ai proposé cette expérience pour répondre à une problématique grandissante : la consommation toujours plus rapides des œuvres d’art présentées dans les musées."],
+            strings: ["En réalité, je vous ai proposé cette expérience pour répondre à une problématique grandissante : la consommation toujours plus rapide des œuvres d’art présentées dans les musées."],
             speed: 10,
             waitUntilVisible: true,
             startDelay: 3000,
@@ -97,7 +97,7 @@ export default function Game2() {
               <TypeIt
               options={{
                 strings: ["Vous le savez déjà, déplacez-vous dans les tableau pour trouver les erreurs."," ",
-                "Générez l'interprétation de l'histoire en cliquant sur les erreurs."," ","Cette fois sera un peu plus compliquée..."],
+                "Générez l'interprétation de l'histoire en cliquant sur les erreurs."," ","Cette fois sera un peu plus compliqué..."],
                 speed: 10,
                 waitUntilVisible: true,
 
