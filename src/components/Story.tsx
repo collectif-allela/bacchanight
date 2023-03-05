@@ -16,8 +16,7 @@ switch (props.storyPart) {
               <img src="./dropdown.svg" className="peer-checked:hidden mx-auto absolute right-[48%] bottom-[-10px] w-5 " alt="" />
             </label>
             <div className="hidden overflow-hidden default:hidden peer-checked:block">
-              <p className="text-primary">La mère et la fille s’étaient rendues sur la tombe du père de famille. </p>
-              <Text text="Le diable grimé en civil, dont on voyait la queue dépasser de sa veste, leur proposa un marché " className="text-primary"> </Text>
+            <p className="text-primary">La mère et la fille s’étaient rendues sur la tombe du père de famille. Le diable grimé en civil, dont on voyait la queue dépasser de sa veste, leur proposa un marché sous forme de jeu rappelant la fête foraine.<br></br><br></br> « Si vous arrivez à jeter le cerceau autour de la pierre tombale de votre mari, je le ramènerai à la vie, sinon je prendrais celle de votre fille ». <br></br><br></br>La mère accepta et se rendit compte seulement après les 3 lancers, que les cerceaux n’étaient pas assez grands pour glisser autour du réceptacle…</p>
               </div>
             </div>
           </div>
@@ -36,15 +35,7 @@ switch (props.storyPart) {
               <img src="./dropdown.svg" className="peer-checked:hidden mx-auto absolute right-[48%] bottom-[-10px] w-5" alt="" />
             </label>
             <div className="hidden overflow-hidden default:hidden peer-checked:block">
-              <p className="text-primary">La mère et la fille s’étaient rendues sur la tombe du père de famille. Le diable grimé en civil, dont on voyait la queue dépasser de sa veste, leur proposa un marché<TypeIt
-            options={{
-              strings: [" : sous forme de jeu rappelant la fête foraine."],
-              speed: 10,
-              waitUntilVisible: true,
-            }}className ="text-primary">
-          </TypeIt></p>
-              {/* <Text text=" les couronnes d’immortelles, la croix, l’hiver. "/> */}
-              
+            <p className="text-primary">La mère et la fille s’étaient rendues sur la tombe du père de famille. Le diable grimé en civil, dont on voyait la queue dépasser de sa veste, leur proposa un marché sous forme de jeu rappelant la fête foraine.<br></br><br></br> « Si vous arrivez à jeter le cerceau autour de la pierre tombale de votre mari, je le ramènerai à la vie, sinon je prendrais celle de votre fille ». <br></br><br></br>La mère accepta et se rendit compte seulement après les 3 lancers, que les cerceaux n’étaient pas assez grands pour glisser autour du réceptacle…</p>
             </div>
             </div>
           </div>
@@ -64,9 +55,8 @@ switch (props.storyPart) {
               <img src="./dropdown.svg" className="peer-checked:hidden mx-auto absolute right-[48%] bottom-[-10px] w-5" alt="" />
             </label>
             <div className="hidden overflow-hidden default:hidden peer-checked:block">
-              <p className="text-primary">La mère et la fille s’étaient rendues sur la tombe du père de famille. Le diable grimé en civil, dont on voyait la queue dépasser de sa veste, leur proposa un marché sous forme de jeu rappelant la fête foraine.</p>
-              <Text text="« Si vous arrivez à jeter le cerceau autour de la pierre tombale de votre mari, "/>
-            
+            <p className="text-primary">La mère et la fille s’étaient rendues sur la tombe du père de famille. Le diable grimé en civil, dont on voyait la queue dépasser de sa veste, leur proposa un marché sous forme de jeu rappelant la fête foraine.<br></br><br></br> « Si vous arrivez à jeter le cerceau autour de la pierre tombale de votre mari, je le ramènerai à la vie, sinon je prendrais celle de votre fille ». <br></br><br></br>La mère accepta et se rendit compte seulement après les 3 lancers, que les cerceaux n’étaient pas assez grands pour glisser autour du réceptacle…</p>
+
               </div>
             </div>
           </div>
@@ -85,19 +75,7 @@ switch (props.storyPart) {
               <img src="./dropdown.svg" className="peer-checked:hidden mx-auto absolute right-[48%] bottom-[-10px] w-5" alt="" />
             </label>
             <div className="hidden overflow-hidden default:hidden peer-checked:block">
-
-              
-              <p className="text-primary">La mère et la fille s’étaient rendues sur la tombe du père de famille. Le diable grimé en civil, dont on voyait la queue dépasser de sa veste, leur proposa un marché sous forme de jeu rappelant la fête foraine.
-« Si vous arrivez à jeter le cerceau autour de la pierre tombale de votre mari, 
-              <TypeIt
-            options={{
-              strings: [" je le ramènerai à la vie, sinon je prendrais celle de votre fille »."],
-              speed: 10,
-              waitUntilVisible: true,
-            }}className ="text-primary">
-          </TypeIt> </p>
-              
-              
+            <p className="text-primary">La mère et la fille s’étaient rendues sur la tombe du père de famille. Le diable grimé en civil, dont on voyait la queue dépasser de sa veste, leur proposa un marché sous forme de jeu rappelant la fête foraine.<br></br><br></br> « Si vous arrivez à jeter le cerceau autour de la pierre tombale de votre mari, je le ramènerai à la vie, sinon je prendrais celle de votre fille ». <br></br><br></br>La mère accepta et se rendit compte seulement après les 3 lancers, que les cerceaux n’étaient pas assez grands pour glisser autour du réceptacle…</p>
               </div>
             </div>
           </div>
@@ -116,12 +94,7 @@ switch (props.storyPart) {
               <img src="./dropdown.svg" className="peer-checked:hidden mx-auto absolute right-[48%] bottom-[-10px] w-5" alt="" />
             </label>
             <div className="hidden overflow-hidden default:hidden peer-checked:block">
-
-              <p className="text-primary">
-              La mère et la fille s’étaient rendues sur la tombe du père de famille. Le diable grimé en civil, dont on voyait la queue dépasser de sa veste, leur proposa un marché sous forme de jeu rappelant la fête foraine.
-« Si vous arrivez à jeter le cerceau autour de la pierre tombale de votre mari, je le ramènerai à la vie, sinon je prendrais celle de votre fille ».</p>
-                <Text text="La mère accepta et se rendit compte seulement après les 3 lancers, "/>
-
+            <p className="text-primary">La mère et la fille s’étaient rendues sur la tombe du père de famille. Le diable grimé en civil, dont on voyait la queue dépasser de sa veste, leur proposa un marché sous forme de jeu rappelant la fête foraine.<br></br><br></br> « Si vous arrivez à jeter le cerceau autour de la pierre tombale de votre mari, je le ramènerai à la vie, sinon je prendrais celle de votre fille ». <br></br><br></br>La mère accepta et se rendit compte seulement après les 3 lancers, que les cerceaux n’étaient pas assez grands pour glisser autour du réceptacle…</p>
               </div>
             </div>
           </div>
@@ -140,19 +113,7 @@ switch (props.storyPart) {
               <img src="./dropdown.svg" className="peer-checked:hidden mx-auto absolute right-[48%] bottom-[-10px] w-5" alt="" />
             </label>
                 <div className="hidden overflow-hidden default:hidden peer-checked:block">
-
-                  <p className="text-primary">La mère et la fille s’étaient rendues sur la tombe du père de famille. Le diable grimé en civil, dont on voyait la queue dépasser de sa veste, leur proposa un marché sous forme de jeu rappelant la fête foraine.
-« Si vous arrivez à jeter le cerceau autour de la pierre tombale de votre mari, je le ramènerai à la vie, sinon je prendrais celle de votre fille ».
-La mère accepta et se rendit compte seulement après les 3 lancers, 
-    <TypeIt
-            options={{
-              strings: [" que le cerceau n’était pas assez grand pour glisser autour du réceptacle…"],
-              speed: 10,
-              waitUntilVisible: true,
-            }}className ="text-primary">
-          </TypeIt>
-    
- </p>
+                <p className="text-primary">La mère et la fille s’étaient rendues sur la tombe du père de famille. Le diable grimé en civil, dont on voyait la queue dépasser de sa veste, leur proposa un marché sous forme de jeu rappelant la fête foraine.<br></br><br></br> « Si vous arrivez à jeter le cerceau autour de la pierre tombale de votre mari, je le ramènerai à la vie, sinon je prendrais celle de votre fille ». <br></br><br></br>La mère accepta et se rendit compte seulement après les 3 lancers, que les cerceaux n’étaient pas assez grands pour glisser autour du réceptacle…</p>
                   </div>
                 </div>
               </div>
@@ -171,14 +132,7 @@ La mère accepta et se rendit compte seulement après les 3 lancers,
               <img src="./dropdown.svg" className="peer-checked:hidden mx-auto absolute right-[48%] bottom-[-10px] w-5" alt="" />
             </label>
             <div className="hidden overflow-hidden default:hidden peer-checked:block">
-            <TypeIt
-            options={{
-              strings: ["La mère et la fille s’étaient rendues sur la tombe du père de famille. "],
-              speed: 10,
-              waitUntilVisible: true,
-            }}className ="text-primary">
-          </TypeIt>
-              {/* <p className="text-primary">Le Jour des morts représente une mère et sa fille pleurant la perte d’un mari et d’un père au pied d’une croix tumulaire. </p> */}
+             <p className="text-primary">La mère et la fille s’étaient rendues sur la tombe du père de famille. Le diable grimé en civil, dont on voyait la queue dépasser de sa veste, leur proposa un marché sous forme de jeu rappelant la fête foraine.<br></br><br></br> « Si vous arrivez à jeter le cerceau autour de la pierre tombale de votre mari, je le ramènerai à la vie, sinon je prendrais celle de votre fille ». <br></br><br></br>La mère accepta et se rendit compte seulement après les 3 lancers, que les cerceaux n’étaient pas assez grands pour glisser autour du réceptacle…</p>
               </div>
             </div>
           </div>
