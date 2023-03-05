@@ -48,7 +48,7 @@ export default function Home(){
             </MessageBox>
             <img className='w-4/12 mx-auto' src="empty_folder.svg"></img>
             <div className='w-full flex justify-center'>
-              <Button id={slide} text="suivant" onClick={handleNext}  />
+              <Button id={slide} text="suivant" onClick={handleNext}/>
             </div>
               </Intro>
             

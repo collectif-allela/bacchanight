@@ -92,7 +92,7 @@ export default function Game2() {
               <div className='flex flex-col gap-y-16'>
               <div className='w-full text-center'>
               <Title text="TROUVEZ LES 7 ERREURS"/>
-              <span className='font-offbit text-primary'>Niveau 2</span>
+              <span className='font-redaction text-primary'>Niveau 2</span>
               </div>
               <TypeIt
               options={{

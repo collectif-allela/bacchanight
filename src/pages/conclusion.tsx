@@ -24,7 +24,7 @@ export default function Conclusion() {
       </Head>
       <Container>
         <Intro>
-          <Title text="BON BACCHANIGHT" />
+          <Title text="BONNE BACCHANIGHT" />
           <img className='w-4/12 mx-auto' src="/d-teye.png" alt="d-teye image" />
 
           <div className='w-full bg-primary bg-opacity-20 p-4 rounded-md border-2 border-primary z-50'>
