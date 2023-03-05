@@ -11,7 +11,7 @@ switch (props.storyPart) {
         <div className="flex justify-center">
           <div className="flex w-10/12 max-w-3xl flex-col items-start gap-y-3">
             <input type="checkbox" id="input4" className="default:checked: peer absolute hidden" />
-            <label htmlFor="input4" className="w-full text-center font-offbit text-primary peer-checked:text-primary underline">
+            <label htmlFor="input4" className="w-full text-center font-redaction text-primary peer-checked:text-primary underline">
               Lire l`histoire
               <img src="./dropdown.svg" className="peer-checked:hidden mx-auto absolute right-[48%] bottom-[-10px] w-5" alt="" />
             </label>
@@ -33,7 +33,7 @@ switch (props.storyPart) {
         <div className="flex justify-center">
           <div className="flex w-10/12 max-w-3xl flex-col items-start gap-y-3">
             <input type="checkbox" id="input4" className="default:checked: peer absolute hidden" />
-            <label htmlFor="input4" className="w-full text-center font-offbit text-primary peer-checked:text-primary underline">
+            <label htmlFor="input4" className="w-full text-center font-redaction text-primary peer-checked:text-primary underline">
               Lire l`histoire
               <img src="./dropdown.svg" className="peer-checked:hidden mx-auto absolute right-[48%] bottom-[-10px] w-5" alt="" />
             </label>
@@ -54,7 +54,7 @@ switch (props.storyPart) {
         <div className="flex justify-center">
           <div className="flex w-10/12 max-w-3xl flex-col items-start gap-y-3">
             <input type="checkbox" id="input4" className="default:checked: peer absolute hidden" />
-            <label htmlFor="input4" className="w-full text-center font-offbit text-primary peer-checked:text-primary underline">
+            <label htmlFor="input4" className="w-full text-center font-redaction text-primary peer-checked:text-primary underline">
               Lire l`histoire
               <img src="./dropdown.svg" className="peer-checked:hidden mx-auto absolute right-[48%] bottom-[-10px] w-5" alt="" />
             </label>
@@ -76,7 +76,7 @@ switch (props.storyPart) {
         <div className="flex justify-center">
           <div className="flex w-10/12 max-w-3xl flex-col items-start gap-y-3">
             <input type="checkbox" id="input4" className="default:checked: peer absolute hidden" />
-            <label htmlFor="input4" className="w-full text-center font-offbit text-primary peer-checked:text-primary underline">
+            <label htmlFor="input4" className="w-full text-center font-redaction text-primary peer-checked:text-primary underline">
               Lire l`histoire
               <img src="./dropdown.svg" className="peer-checked:hidden mx-auto absolute right-[48%] bottom-[-10px] w-5" alt="" />
             </label>
@@ -97,7 +97,7 @@ switch (props.storyPart) {
         <div className="flex justify-center">
           <div className="flex w-10/12 max-w-3xl flex-col items-start gap-y-3">
             <input type="checkbox" id="input4" className="default:checked: peer absolute hidden" />
-            <label htmlFor="input4" className="w-full text-center font-offbit text-primary peer-checked:text-primary underline">
+            <label htmlFor="input4" className="w-full text-center font-redaction text-primary peer-checked:text-primary underline">
               Lire l`histoire
               <img src="./dropdown.svg" className="peer-checked:hidden mx-auto absolute right-[48%] bottom-[-10px] w-5" alt="" />
             </label>
@@ -119,7 +119,7 @@ switch (props.storyPart) {
         <div className="flex justify-center">
           <div className="flex w-10/12 max-w-3xl flex-col items-start gap-y-3">
             <input type="checkbox" id="input4" className="default:checked: peer absolute hidden" />
-            <label htmlFor="input4" className="w-full text-center font-offbit text-primary peer-checked:text-primary underline">
+            <label htmlFor="input4" className="w-full text-center font-redaction text-primary peer-checked:text-primary underline">
               Lire l`histoire
               <img src="./dropdown.svg" className="peer-checked:hidden mx-auto absolute right-[48%] bottom-[-10px] w-5" alt="" />
             </label>

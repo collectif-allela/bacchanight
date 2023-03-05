@@ -8,6 +8,11 @@
 }
 
 @font-face {
+  font-family: "redaction";
+  src: url("../../public/font/Redaction50-Bold.otf"), format("opentype")
+}
+
+@font-face {
   font-family: "offbit";
   src: url("../../public/font/OffBitTrial-Regular.ttf"), format("truetype")
 }
