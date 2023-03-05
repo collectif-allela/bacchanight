@@ -62,7 +62,7 @@ export default function Home(){
       <Title text="PROGRAMME MALVEILLANT"/>
       <MessageBox>
       <TypeIt options={{
-      strings: ["Bonjour. Je suis D-tEye: le virus informatique qui sévit pendant cette bacchanight..."],
+      strings: ["Bonjour. Je suis D-tEye: le virus informatique qui sévit pendant cette Bacchanight..."],
       speed: 10,
       waitUntilVisible: true,
     }}className ="text-primary">
@@ -81,7 +81,7 @@ export default function Home(){
       return (
         <Container>
         <Intro>
-        <Title text="DESINFORMATION" />
+        <Title text="DÉSINFORMATION" />
         <MessageBox>
         <Text text = "Les organisateurs m’accusent de désinformation historique car je me suis permis, à dessein, de rajouter quelques éléments sur certains tableaux"/>
         </MessageBox>
@@ -98,7 +98,7 @@ export default function Home(){
         return (
           <Container>
           <Intro>
-          <Title text="LE SENS DU DETAIL 1/2" />
+          <Title text="LE SENS DU DÉTAIL 1/2" />
           <div className='w-full h-40 bg-primary bg-opacity-20 p-4 rounded-md border-2 border-primary z-50'>
           <TypeIt options={{
       strings: ["Aurez-vous l’œil assez aiguisé pour identifier les différences que j’ai dissimulées dans les versions numériques des peintures ?"," "],
