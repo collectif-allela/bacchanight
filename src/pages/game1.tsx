@@ -24,7 +24,7 @@ export default function Game1() {
   const [story, setStory]= useState(0);
   const scoreToWin = 7;
   function increaseScore(){
-    
+
     // Add point to score
     setScore(score + 1);
     setStory(story + 1);
@@ -54,7 +54,7 @@ export default function Game1() {
         <Score score={score}/>
       </div>
       )
-      case 2: 
+      case 2:
       return (
       <div className='w-screen h-screen px-4 py-12'>
         <Title text ="bravo"/>
@@ -97,7 +97,7 @@ export default function Game1() {
           <div className='flex flex-col gap-y-16'>
             <div className='w-full text-center'>
               <Title text="TROUVEZ LES 7 ERREURS"/>
-              <span className='font-redaction text-primary'>Niveau 1</span>
+              <span className='font-redaction text-primary'>Niveau 1: Le Jour des morts</span>
             </div>
             <TypeIt
             options={{

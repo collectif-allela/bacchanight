@@ -18,8 +18,11 @@ export default function Paints(){
         <div className='h-screen flex flex-col gap-y-10 justify-center items-center text-center relative'>
           <h1 className='uppercase text-3xl text-primary'>Voici les oeuvres infectées</h1>
           <div className='flex-col flex gap-y-4 text-primary border-y-2 py-4   border-primary/50'>
-            <span>Jour_des_morts.jpg</span>
-            <span>Waterloo.jpg</span>
+            <span className='text-lg'>William Bouguereau:</span>
+            <span className='opacity-50'>Le Jour des morts, 1859</span>
+            <hr className='w-1/6 mx-auto border-primary' ></hr>
+            <span className='text-lg'>John-Lewis Brown:</span>
+            <span className='px-10 opacity-50'>Bataille de du 17 juin 1815 (Waterloo), 1869</span>
           </div>
 
           <Link className='text-primary 'href="/game1"><Button text="COMMENCER LE JEU"/></Link>
