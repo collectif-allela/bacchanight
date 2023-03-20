@@ -22,7 +22,7 @@ export default function Paints(){
             <span className='opacity-50'>Le Jour des morts, 1859</span>
             <hr className='w-1/6 mx-auto border-primary' ></hr>
             <span className='text-lg'>John-Lewis Brown:</span>
-            <span className='px-10 opacity-50'>Bataille de du 17 juin 1815 (Waterloo), 1869</span>
+            <span className='px-10 opacity-50'>Bataille du 17 juin 1815 (Waterloo), 1869</span>
           </div>
 
           <Link className='text-primary 'href="/game1"><Button text="COMMENCER LE JEU"/></Link>

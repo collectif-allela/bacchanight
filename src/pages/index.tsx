@@ -120,7 +120,7 @@ export default function Home(){
             return (
               <Container>
               <Intro>
-              <Title text="LE SENS DU DETAIL 2/2" />
+              <Title text="LE SENS DU DÉTAIL 2/2" />
               <div className='w-full h-40 bg-primary bg-opacity-20 p-4 rounded-md border-2 border-primary z-50'>
               <Text text = "Pour le savoir, commencez par télécharger le dossier contenant les œuvres infectées"/>
               </div>

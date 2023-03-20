@@ -61,7 +61,7 @@ export default function Game1() {
         <div className='h-5/6 flex flex-col justify-evenly'>
           <div className='mt-12 w-full uppercase text-primary font-title'>
               <TypeIt options={{
-                strings: ["IDENTIFICATION DES ERREURS: COMPLETE ","objectif: atteint"],
+                strings: ["IDENTIFICATION DES ERREURS: COMPLÈTE ","objectif: atteint"],
                 speed: 10,
                 waitUntilVisible: true,
               }}>
@@ -101,7 +101,7 @@ export default function Game1() {
             </div>
             <TypeIt
             options={{
-              strings: ["Déplacez-vous dans les tableau pour trouver les erreurs."," ",
+              strings: ["Déplacez-vous dans les tableaux pour trouver les erreurs."," ",
               "Générez l'interprétation de l'histoire en cliquant sur les erreurs."],
               speed: 10,
               waitUntilVisible: true,

@@ -25,19 +25,18 @@ export default function Conclusion() {
       <Container>
         <Intro>
           <Title text="BONNE BACCHANIGHT" />
-          <img className='w-4/12 mx-auto' src="/d-teye.png" alt="d-teye image" />
+          <img className='w-2/12 mx-auto' src="/d-teye.png" alt="d-teye image" />
 
           <div className='w-full bg-primary bg-opacity-20 p-4 rounded-md border-2 border-primary z-50'>
         <TypeIt options={{
-          strings: ["Vous aurez certainement quelques problèmes si vous peignez sur les toiles présentées au musée des Beaux Arts… "," ","","Mais il y a un endroit où vous pouvez transformer les tableaux sans aucun risque de poursuite judiciaire : votre imagination. Dans vos pensées, tout devient possible."," ","", "J'espère que ce virus sera contagieux ;)"," ","", "Belle BACCHANIGHT."],
+          strings: ["Vous aurez certainement quelques problèmes si vous peignez sur les toiles présentées au musée des Beaux Arts… "," ","","Mais il y a un endroit où vous pouvez transformer les tableaux sans aucun risque de poursuite judiciaire : votre imagination. Dans vos pensées, tout devient possible."," ","", "J'espère que ce virus sera contagieux ;)","", "Belle BACCHANIGHT."],
           speed: 10,
           waitUntilVisible: true,
-        }}className ="text-primary">
+        }}className ="text-primary mb-4">
         </TypeIt>
         </div>
-        <div className='w-full flex justify-between'>
+        <div className='w-full flex justify-center'>
         <Link href="/credits"><Button text="crédits"/></Link>
-        <Link href="/index"><Button text="récommencer"/></Link>
 
         </div>
         </Intro>
