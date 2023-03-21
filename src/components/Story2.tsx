@@ -114,7 +114,7 @@ switch (props.storyPart) {
               <img src="./dropdown.svg" className="peer-checked:hidden mx-auto absolute right-[48%] bottom-[-10px] w-5" alt="" />
             </label>
             <div className="hidden overflow-hidden default:hidden peer-checked:block">
-            <p className="text-primary">L’escadron avait noué des liens d’amitié fort pendant leurs activités militaires. <br></br><br></br> Le point commun qui les unissait était le goût de la fête, souvent au détriment de leur assiduité.<br></br><br></br>  Cette nuit n’avait pas fait exception. Ils avaient bu, dansé et chanté en oubliant d’éteindre le feu. <br></br><br></br> Au réveil, la fumée s’élevait à des dizaines de mètres, ce qui avait permis à l’ennemi de les repérer et de prendre l’avantage en les surprenant.</p>
+            <p className="text-primary">L’escadron avait noué des liens d’amitié forts pendant leurs activités militaires. <br></br><br></br> Le point commun qui les unissait était le goût de la fête, souvent au détriment de leur assiduité.<br></br><br></br>  Cette nuit n’avait pas fait exception. Ils avaient bu, dansé et chanté en oubliant d’éteindre le feu. <br></br><br></br> Au réveil, la fumée s’élevait à des dizaines de mètres, ce qui avait permis à l’ennemi de les repérer et de prendre l’avantage en les surprenant.</p>
               </div>
             </div>
           </div>
